@@ -1,0 +1,130 @@
+[
+  {
+    "name": "WinCardA",
+    "type": "toggle",
+    "img": "/images/items/placeholder/wincarda.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "wincarda"
+  },
+  {
+    "name": "WinCardB",
+    "type": "toggle",
+    "img": "/images/items/placeholder/wincardb.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "wincardb"
+  },
+  {
+    "name": "WinCardC",
+    "type": "toggle",
+    "img": "/images/items/placeholder/wincardc.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "wincardc"
+  },
+  {
+    "name": "WinCardD",
+    "type": "toggle",
+    "img": "/images/items/placeholder/wincardd.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "wincardd"
+  },
+  {
+    "name": "Fish",
+    "type": "toggle",
+    "img": "/images/items/placeholder/fish.gif",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "fish"
+  },
+  {
+    "name": "AuthData",
+    "type": "toggle",
+    "img": "/images/items/placeholder/authdata.gif",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "authdata"
+  },
+  {
+    "name": "Umbrella",
+    "type": "toggle",
+    "img": "/images/items/placeholder/umbrella.gif",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "umbrella"
+  },
+  {
+    "name": "ACDCKyDt",
+    "type": "toggle",
+    "img": "/images/items/placeholder/acdckydt.gif",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "acdckydt"
+  },
+  {
+    "name": "StampCrd",
+    "type": "toggle",
+    "img": "/images/items/placeholder/stampcrd.gif",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "stampcrd"
+  },
+  {
+    "name": "KeyData",
+    "type": "toggle",
+    "img": "/images/items/placeholder/keydata.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "keydata"
+  },
+  {
+    "name": "ToolPrgm",
+    "type": "toggle",
+    "img": "/images/items/placeholder/toolprgm.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "toolprgm"
+  },
+  {
+    "name": "CybBrdAx",
+    "type": "toggle",
+    "img": "/images/items/placeholder/cybbrdax.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "cybbrdax"
+  },
+  {
+    "name": "VacData",
+    "type": "toggle",
+    "img": "/images/items/placeholder/vacdata.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "vacdata"
+  },
+  {
+    "name": "AreaPass",
+    "type": "toggle",
+    "img": "/images/items/placeholder/areapass.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "areapass"
+  },
+  {
+    "name": "WWWID",
+    "type": "toggle",
+    "img": "/images/items/placeholder/wwwid.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "wwwid"
+  },
+  {
+    "name": "BatKey",
+    "type": "toggle",
+    "img": "/images/items/placeholder/batkey.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "batkey"
+  }
+]

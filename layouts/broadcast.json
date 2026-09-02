@@ -1,0 +1,70 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                            "type": "group",
+                            "header": "Key Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "KeyItemsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Link Navi Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "LinkNaviGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Navi Customizer",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "NaviCustGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Request Chips",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "RequestChipsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Trade Chips",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "TradeChipsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Other Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "OtherItemsGrid"
+                            }
+                        }
+                ]
+            }
+        ]
+    }
+}

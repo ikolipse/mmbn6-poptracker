@@ -1,0 +1,237 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Key Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "KeyItemsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Link Navi Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "LinkNaviGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Navi Customizer",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "NaviCustGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Request Chips",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "RequestChipsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Trade Chips",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "TradeChipsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Other Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "OtherItemsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "setting_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "style": "wrap",
+                                "type": "recentpins",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Overworld Locations",
+                            "content": {
+                                "type": "layout",
+                                "key": "overworld_maps"
+                            }
+                        },
+                        {
+                            "title": "Cyberworld Locations",
+                            "content": {
+                                "type": "layout",
+                                "key": "cyberworld_maps"
+                            }
+                        },
+                        {
+                            "title": "Dungeons Locations",
+                            "content": {
+                                "type": "layout",
+                                "key": "dungeons_maps"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#00000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "h_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Key Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "KeyItemsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Link Navi Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "LinkNaviGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Navi Customizer",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "NaviCustGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Request Chips",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "RequestChipsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Trade Chips",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "TradeChipsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Other Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "OtherItemsGrid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "setting_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "style": "wrap",
+                                "type": "recentpins",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Overworld Locations",
+                            "content": {
+                                "type": "layout",
+                                "key": "overworld_maps"
+                            }
+                        },
+                        {
+                            "title": "Cyberworld Locations",
+                            "content": {
+                                "type": "layout",
+                                "key": "cyberworld_maps"
+                            }
+                        },
+                        {
+                            "title": "Dungeons Locations",
+                            "content": {
+                                "type": "layout",
+                                "key": "dungeons_maps"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

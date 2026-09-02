@@ -1,0 +1,7 @@
+Tracker:AddItems("items/KeyItems.json")
+Tracker:AddItems("items/TradeChips.json")
+Tracker:AddItems("items/RequestChips.json")
+Tracker:AddItems("items/NaviCust.json")
+Tracker:AddItems("items/LinkNavi.json")
+Tracker:AddItems("items/OtherItems.json")
+Tracker:AddItems("items/labels.json")

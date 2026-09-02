@@ -1,0 +1,278 @@
+[
+    {
+        "name": "CyberCity",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/central/overworld_cyber-city.png"
+    },
+    {
+        "name": "AsterLand",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/central/overworld_asterland.png"
+    },
+    {
+        "name": "AcademyClasses",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/central/overworld_academy-classes.png"
+    },
+    {
+        "name": "AcademyOffices",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/central/overworld_academy-offices.png"
+    },
+    {
+        "name": "ExpoPavilion",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/central/overworld_expo-pavilion.png"
+    },
+    {
+        "name": "SeasideExterior",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/seaside/overworld_aquarium-exterior.png"
+    },
+    {
+        "name": "SeasideInterior",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/seaside/overworld_aquarium-interior.png"
+    },
+    {
+        "name": "GreenTown",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/green/overworld_green-town.png"
+    },
+    {
+        "name": "GreenCourthouse",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/green/overworld_green-courthouse.png"
+    },
+    {
+        "name": "SkyExtLower",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/sky/overworld_sky-town-lower.png"
+    },
+    {
+        "name": "SkyExtUpper",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/sky/overworld_sky-town-upper.png"
+    },
+    {
+        "name": "SkyControl",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/sky/overworld_sky-control-room.png"
+    },
+    {
+        "name": "SkyForce",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/sky/overworld_sky-force-room.png"
+    },
+    {
+        "name": "ACDCTown",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/overworld/acdc/overworld_acdc.png"
+    },
+    {
+        "name": "CentralNet1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/central/cyberworld_central-1.png"
+    },
+    {
+        "name": "CentralNet2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/central/cyberworld_central-2.png"
+    },
+    {
+        "name": "CentralNet3",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/central/cyberworld_central-3.png"
+    },
+    {
+        "name": "SeasideNet1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/seaside/cyberworld_seaside-1.png"
+    },
+    {
+        "name": "SeasideNet2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/seaside/cyberworld_seaside-2.png"
+    },
+    {
+        "name": "SeasideNet3",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/seaside/cyberworld_seaside-3.png"
+    },
+    {
+        "name": "GreenNet1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/green/cyberworld_green-1.png"
+    },
+    {
+        "name": "GreenNet2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/green/cyberworld_green-2.png"
+    },
+    {
+        "name": "SkyNet1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/sky/cyberworld_sky-1.png"
+    },
+    {
+        "name": "SkyNet2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/sky/cyberworld_sky-2.png"
+    },
+    {
+        "name": "ACDCNET",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/acdc/cyberworld_acdc.png"
+    },
+    {
+        "name": "Undernet1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/undernet/cyberworld_undernet-1.png"
+    },
+    {
+        "name": "Undernet2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/undernet/cyberworld_undernet-2.png"
+    },
+    {
+        "name": "Undernet0",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/undernet/cyberworld_undernet-zero.png"
+    },
+    {
+        "name": "Graveyard",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/undernet/cyberworld_graveyard.png"
+    },
+    {
+        "name": "Underground1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/underground/cyberworld_underground-1.png"
+    },
+    {
+        "name": "Underground2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/cyberworld/underground/cyberworld_underground-2.png"
+    },
+    {
+        "name": "RobotControl1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/academy/dungeon_academy-1.png"
+    },
+    {
+        "name": "RobotControl2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/academy/dungeon_academy-2.png"
+    },
+    {
+        "name": "Aquarium1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/aquarium/dungeon_aquarium-1.png"
+    },
+    {
+        "name": "Aquarium2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/aquarium/dungeon_aquarium-2.png"
+    },
+    {
+        "name": "Aquarium3",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/aquarium/dungeon_aquarium-3.png"
+    },
+    {
+        "name": "JudgeTree1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/judge-tree/dungeon_judge-tree-1.png"
+    },
+    {
+        "name": "JudgeTree2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/judge-tree/dungeon_judge-tree-2.png"
+    },
+    {
+        "name": "JudgeTree3",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/judge-tree/dungeon_judge-tree-3.png"
+    },
+    {
+        "name": "Weather1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/weather/dungeon_weather-1.png"
+    },
+    {
+        "name": "Weather2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/weather/dungeon_weather-2.png"
+    },
+    {
+        "name": "Weather3",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/weather/dungeon_weather-3.png"
+    },
+    {
+        "name": "PavilionComp1",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/pavilion/dungeon_pavilion-1.png"
+    },
+    {
+        "name": "PavilionComp2",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/pavilion/dungeon_pavilion-2.png"
+    },
+    {
+        "name": "PavilionComp3",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/pavilion/dungeon_pavilion-3.png"
+    },
+    {
+        "name": "PavilionComp4",
+        "location_size": 25,
+        "location_border_thickness": 1,
+        "img": "images/maps/dungeons/pavilion/dungeon_pavilion-4.png"
+    }
+]

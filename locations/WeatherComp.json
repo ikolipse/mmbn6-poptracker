@@ -1,0 +1,196 @@
+[
+    {
+        "name": "WeatherComp",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Weather1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Mr. Weather Comp 1 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Weather1",
+                                "x": 972,
+                                "y": 342,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mr. Weather Comp 1 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Weather1",
+                                "x": 335,
+                                "y": 394,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Weather2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Mr. Weather Comp 2 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Weather2",
+                                "x": 337,
+                                "y": 634,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mr. Weather Comp 2 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Weather2",
+                                "x": 752,
+                                "y": 489,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Weather3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Mr. Weather Comp 3 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Weather3",
+                                "x": 171,
+                                "y": 171,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Mr. Weather Comp 3 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Weather3",
+                                "x": 1256,
+                                "y": 196,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

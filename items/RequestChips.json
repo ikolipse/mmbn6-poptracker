@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Anubis P",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/anubisp.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "anubisp"
+  },
+  {
+    "name": "ATK+30 *",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/atk30.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "atk30"
+  },
+  {
+    "name": "BblWrap Q",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/bblwrapq.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "bblwrapq"
+  },
+  {
+    "name": "Discord S",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/discords.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "discords"
+  },
+  {
+    "name": "DolThdr1 A",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/dolthdr1a.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "dolthdr1a"
+  },
+  {
+    "name": "Fanfare Z",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/fanfarez.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "fanfarez"
+  },
+  {
+    "name": "Geddon A",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/geddona.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "geddona"
+  },
+  {
+    "name": "GulDelS1 C",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/gundels1c.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "gundels1c"
+  },
+  {
+    "name": "PoisSeed P",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/poisseedp.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "poisseedp"
+  },
+  {
+    "name": "Recov80 H",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/recov80h.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "recov80h"
+  },
+  {
+    "name": "Timpani T",
+    "type": "toggle",
+    "img": "/images/items/RequestChips/timpanit.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "timpanit"
+  }
+]

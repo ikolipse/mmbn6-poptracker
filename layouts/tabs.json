@@ -1,0 +1,552 @@
+{
+    "overworld_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Central",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Cyber City",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CyberCity"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "AsterLand",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "AsterLand"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Academy Classes",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "AcademyClasses"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Academy Offices",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "AcademyOffices"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Expo Pavilion",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "ExpoPavilion"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Seaside",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Aquarium Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SeasideExterior"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Aquarium Interior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SeasideInterior"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Green",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Green Town Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "GreenTown"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Green Town Courthouse",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "GreenCourthouse"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Sky",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Sky Town Lower Level",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SkyExtLower"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Sky Town Upper Level",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SkyExtUpper"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Sky Town Control Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SkyControl"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Sky Town Force Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SkyForce"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "ACDC",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "ACDCTown"
+                    ]
+                }
+            }
+        ]
+    },
+
+    "cyberworld_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Central Net",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Central 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CentralNet1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Central 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CentralNet2"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Central 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CentralNet3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Seaside Net",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Seaside 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SeasideNet1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Seaside 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SeasideNet2"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Seaside 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SeasideNet3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Green Net",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Green 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "GreenNet1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Green 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "GreenNet2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Sky Net",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Sky 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SkyNet1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Sky 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SkyNet2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "ACDC Net",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "ACDCNET"
+                    ]
+                }
+            },
+            {
+                "title": "Undernet",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Undernet 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Undernet1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Undernet 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Undernet2"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Undernet Zero",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Undernet0"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Graveyard",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Graveyard"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Underground",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Underground 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Underground1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Underground 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Underground2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "dungeons_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Robot Control Comp",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Robot Control Comp 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "RobotControl1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Robot Control Comp 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "RobotControl2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Aquarium Comp",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Aquarium Comp 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Aquarium1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Aquarium Comp 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Aquarium2"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Aquarium Comp 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Aquarium3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Judge Tree Comp",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Judge Tree Comp 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "JudgeTree1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Judge Tree Comp 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "JudgeTree2"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Judge Tree Comp 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "JudgeTree3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Mr Weather Comp",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Mr Weather Comp 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Weather1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Mr Weather Comp 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Weather2"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Mr Weather Comp 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Weather3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Expo Pavilion Comp",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title" : "Expo Pavilion Comp 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PavilionComp1"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Expo Pavilion Comp 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PavilionComp2"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Expo Pavilion Comp 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PavilionComp3"
+                                ]
+                            }
+                        },
+                        {
+                            "title" : "Expo Pavilion Comp 4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "PavilionComp4"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

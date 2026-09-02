@@ -1,0 +1,324 @@
+[
+    {
+        "name": "CentralNET",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Central1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Central Area 1 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet1",
+                                "x": 350,
+                                "y": 267,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central Area 1 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet1",
+                                "x": 737,
+                                "y": 368,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central 1 Net Cafe",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet1",
+                                "x": 894,
+                                "y": 157,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Central 1 Virus Battler",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "CentralNet1",
+                        "x": 1921,
+                        "y": 1612,
+                        "size": 25
+                    }
+                ]
+            },
+            {
+                "name": "Central2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "BlastMan",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "BlastMan EX",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "BlastMan SP - Random encounter",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet2",
+                                "x": 575,
+                                "y": 400,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central Area 2 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet2",
+                                "x": 260,
+                                "y": 362,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central Area 2 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet2",
+                                "x": 641,
+                                "y": 463,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central 2 Heel Navi",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet2",
+                                "x": 715,
+                                "y": 460,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Central3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "CircusMan",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "CircusMan EX",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "CircusMan SP - Random encounter",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet3",
+                                "x": 632,
+                                "y": 321,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central Area 3 BMD",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet3",
+                                "x": 155,
+                                "y": 347,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central Area 3 PMD",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet3",
+                                "x": 408,
+                                "y": 398,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "name": "Underground",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Underground1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Underground 1 PMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Underground1",
+                                "x": 165,
+                                "y": 250,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Underground 1 PMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Underground1",
+                                "x": 102,
+                                "y": 506,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Underground2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Colonel",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Colonel EX",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Colonel SP - Random encounter",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Underground2",
+                                "x": 30,
+                                "y": 75,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Underground 2 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Underground2",
+                                "x": 1154,
+                                "y": 182,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Underground 2 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Underground2",
+                                "x": 417,
+                                "y": 615,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bass BX",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "Underground2",
+                                "x": 195,
+                                "y": 100,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

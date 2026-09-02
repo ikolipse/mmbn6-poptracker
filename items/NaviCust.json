@@ -1,0 +1,80 @@
+[
+  {
+    "name": "SpinYllw",
+    "type": "toggle",
+    "img": "/images/items/placeholder/spinyllw.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "spinyllw"
+  },
+  {
+    "name": "SpinBlue",
+    "type": "toggle",
+    "img": "/images/items/placeholder/spinblue.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "spinblue"
+  },
+  {
+    "name": "SpinWhit",
+    "type": "toggle",
+    "img": "/images/items/placeholder/spinwht.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "spinwhit"
+  },
+  {
+    "name": "SpinGrn",
+    "type": "toggle",
+    "img": "/images/items/placeholder/spingrn.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "spingrn"
+  },
+  {
+    "name": "SpinRed",
+    "type": "toggle",
+    "img": "/images/items/placeholder/spinred.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "spinred"
+  },
+  {
+    "name": "SpinPink",
+    "type": "toggle",
+    "img": "/images/items/placeholder/spinpnk.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "spinpink"
+  },
+  {
+    "name": "Program: Millions",
+    "type": "toggle",
+    "img": "/images/items/placeholder/millions.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "millions"
+  },
+  {
+    "name": "ExpMemry",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "overlay_align": "right",
+    "stages": [
+      {
+        "name": "ExpMemry stage1",
+        "inherit_codes": true,
+        "img": "/images/items/placeholder/expmemry.png",
+        "codes": "expmemry, expmemry_stage1"
+      },
+      {
+        "name": "ExpMemry stage2",
+        "inherit_codes": true,
+        "img": "/images/items/placeholder/expmemry.png",
+        "codes": "expmemry_stage2"
+      }
+    ]
+  }
+]

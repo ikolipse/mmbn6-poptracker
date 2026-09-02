@@ -1,0 +1,196 @@
+[
+    {
+        "name": "JudgeTreeComp",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "JudgeTree1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "JudgeTree Comp 1 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "JudgeTree1",
+                                "x": 473,
+                                "y": 600,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JudgeTree Comp 1 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "JudgeTree1",
+                                "x": 568,
+                                "y": 266,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "JudgeTree2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "JudgeTree Comp 2 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "JudgeTree2",
+                                "x": 633,
+                                "y": 473,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JudgeTree Comp 2 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "JudgeTree2",
+                                "x": 888,
+                                "y": 184,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "JudgeTree3",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "JudgeTree Comp 3 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "JudgeTree3",
+                                "x": 666,
+                                "y": 589,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JudgeTree Comp 3 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "JudgeTree3",
+                                "x": 602,
+                                "y": 397,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

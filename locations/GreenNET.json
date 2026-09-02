@@ -1,0 +1,303 @@
+[
+    {
+        "name": "GreenNET",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Green1",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Green HP",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Green HP BMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Green HP PMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet1",
+                                "x": 128,
+                                "y": 514,
+                                "size": 20
+                            },
+                            {
+                                "map": "GreenCourthouse",
+                                "x": 171,
+                                "y": 569,
+                                "size": 20
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Area 1 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet1",
+                                "x": 255,
+                                "y": 702,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Area 1 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet1",
+                                "x": 865,
+                                "y": 239,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Area 1 PMD",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet1",
+                                "x": 1153,
+                                "y": 763,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green 1 Heel Navi",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet1",
+                                "x": 638,
+                                "y": 224,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Green2",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "JudgeMan",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "JudgeMan EX",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "JudgeMan SP - Random encounter",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet2",
+                                "x": 895,
+                                "y": 930,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Area 2 BMD 1",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet2",
+                                "x": 514,
+                                "y": 934,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Area 2 BMD 2",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet2",
+                                "x": 800,
+                                "y": 214,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green Area 2 BMD 3",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet2",
+                                "x": 928,
+                                "y": 274,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Green 2 Net Cafe",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenNet2",
+                                "x": 100,
+                                "y": 270,
+                                "size": 25
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

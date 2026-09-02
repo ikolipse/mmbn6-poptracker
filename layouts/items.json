@@ -1,0 +1,249 @@
+{
+    "KeyItemsGrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "wincarda",
+                                "wincardb",
+                                "wincardc",
+                                "wincardd"
+                            ],
+                            [
+                                "fish",
+                                "authdata",
+                                "umbrella",
+                                "acdckydt",
+                                "stampcrd"
+                            ],
+                            [
+                                "keydata",
+                                "toolprgm",
+                                "cybbrdax",
+                                "vacdata",
+                                "areapass"
+                            ],
+                            [
+                                "wwwid",
+                                "batkey"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LinkNaviGrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "heatcross",
+                                "slashcross",
+                                "eleccross",
+                                "erasecross",
+                                "chargecross"
+                            ],
+                            [
+                                "spoutcross",
+                                "tengucross",
+                                "tomahawkcross",
+                                "groundcross",
+                                "dustcross"
+                            ],
+                            [
+                                "progressivelinknaviupgrade"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "NaviCustGrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "spinyllw",
+                                "spinblue",
+                                "spinwhit",
+                                "millions"
+                            ],
+                            [
+                                "spingrn",
+                                "spinred",
+                                "spinpink",
+                                "expmemry"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "RequestChipsGrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "anubisp",
+                                "atk30",
+                                "bblwrapq",
+                                "discords"
+                            ],
+                            [
+                                "dolthdr1a",
+                                "fanfarez",
+                                "geddona",
+                                "gundels1c"
+                            ],
+                            [
+                                "poisseedp",
+                                "recov80h",
+                                "timpanit"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "TradeChipsGrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "aurahed1b",
+                                "barr100h",
+                                "bigbombo"
+                            ],
+                            [
+                                "dublshotc",
+                                "energbomk",
+                                "grabrvngi"
+                            ],
+                            [
+                                "hiboomerv",
+                                "holypanls",
+                                "pnlretrn"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "OtherItemsGrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "hpmemry",
+                                "unlocker",
+                                "submemry",
+                                "100000z"
+                            ],
+                            [
+                                "btlrcard",
+                                "beastout",
+                                "ordersys",
+                                "tagchip"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

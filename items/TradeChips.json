@@ -1,0 +1,74 @@
+[
+  {
+    "name": "AuraHed1 B",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/aurahed1b.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "aurahed1b"
+  },
+  {
+    "name": "Barr100 H",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/barr100h.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "barr100h"
+  },
+  {
+    "name": "BigBomb O",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/bigbombo.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "bigbombo"
+  },
+  {
+    "name": "DublShot C",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/dublshotc.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "dublshotc"
+  },
+  {
+    "name": "EnergBom K",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/energbomk.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "energbomk"
+  },
+  {
+    "name": "GrabRvng I",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/grabrvngi.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "grabrvngi"
+  },
+  {
+    "name": "HiBoomer V",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/hiboomerv.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "hiboomerv"
+  },
+  {
+    "name": "HolyPanl S",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/holypanls.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "holypanls"
+  },
+  {
+    "name": "PnlRetrn *",
+    "type": "toggle",
+    "img": "/images/items/TradeChips/pnlretrn.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "pnlretrn"
+  }
+]

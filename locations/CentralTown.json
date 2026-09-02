@@ -1,0 +1,1560 @@
+[
+    {
+        "name": "CentralTown",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "CyberCity",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Request",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "children": [
+                            {
+                                "name": "Track The Crmnl",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Reward 1",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Reward 2",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Reward 3",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 95,
+                                        "y": 150,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "OfficialRequest",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Reward 1",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Reward 2",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Reward 3",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 110,
+                                        "y": 150,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "An Experiment!",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Reward 1",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Reward 2",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Reward 3",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 125,
+                                        "y": 150,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "1 Star Requests",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Virus Deletion",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Find Keepsake",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Errand Request",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Somebody Help!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Get The Chip!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Daughter Worry",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Stop Him!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Loan Collection",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "DietGood Money",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Got A Problem.",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Songwriter",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 80,
+                                        "y": 180,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "2 Stars Requests",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "For Victory!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "JuvenileDiv",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Stock Up!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "StandIn Recruit",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "PenguinsRanAway",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lumber Merchant",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Buy Whch Stock",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Update Help",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Do Something!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Want Meet Dghtr",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Not Engh Member",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Self Research",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 95,
+                                        "y": 180,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "3 Stars Request",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "TimeCpsl",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Find The Virus!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Cant Open Safe",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Get The Bad Guy",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "RoadToSoulBtlr!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 110,
+                                        "y": 180,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "4 Stars Request",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Wheres My Navi",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "One More Time.",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "SupportChip Pls",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Negotiate!",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 125,
+                                        "y": 180,
+                                        "size": 10
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gacha",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "children": [
+                            {
+                                "name": "Gacha 01-10",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Lotto Code 01",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 02",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 03",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 04",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 05",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 06",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 07",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 08",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 09",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 10",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 365,
+                                        "y": 100,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Gacha 11-20",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Lotto Code 11",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 12",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 13",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 14",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 15",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 16",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 17",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 18",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 19",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 20",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 365,
+                                        "y": 115,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Gacha 21-30",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Lotto Code 21",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 22",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 23",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 24",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 25",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 26",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 27",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 28",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 29",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 30",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 365,
+                                        "y": 130,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Gacha 31-40",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Lotto Code 31",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 32",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 33",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 34",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 35",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 36",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 37",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 38",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 39",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 40",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 380,
+                                        "y": 100,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Gacha 41-50",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Lotto Code 41",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 42",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 43",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 44",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 45",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 46",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 47",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 48",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 49",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 50",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 380,
+                                        "y": 115,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Gacha 50-58",
+                                "chest_unopened_img": "/images/items/close.png",
+                                "chest_opened_img": "/images/items/open.png",
+                                "overlay_background": "#000000",
+                                "access_rules": [
+                                    " "
+                                ],
+                                "sections": [
+                                    {
+                                        "name": "Lotto Code 51",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 52",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 53",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 54",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 55",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 56",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 57",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    },
+                                    {
+                                        "name": "Lotto Code 58",
+                                        "access_rules": [],
+                                        "visibility_rules": [],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations": [
+                                    {
+                                        "map": "AsterLand",
+                                        "x": 380,
+                                        "y": 130,
+                                        "size": 10
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Lans House",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Bathroom Comp BMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Talk To Mayl",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CyberCity",
+                                "x": 666,
+                                "y": 345,
+                                "size": 15
+                            }
+                        ]
+                    },
+                    {
+                        "name": "RoboDog Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "RoboDog Comp BMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "RoboDog Comp Virus Battler",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CyberCity",
+                                "x": 260,
+                                "y": 260,
+                                "size": 15
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Central Barr100 H Trade",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CyberCity",
+                                "x": 777,
+                                "y": 342,
+                                "size": 15
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AcademyOffices",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Labs Comp 1",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Labs Comp 1 BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Labs Comp 1 BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 530,
+                                "y": 245,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Labs Comp 2",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Labs Comp 2 BMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Labs Comp 2 PMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 170,
+                                "y": 175,
+                                "size": 30
+                            },
+                            {
+                                "map": "Undernet1",
+                                "x": 232,
+                                "y": 752,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Labs 2 Link Navi",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "EraseMan Class",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "GroundMan Class",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 140,
+                                "y": 195,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Teachers Room Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Teachers Room Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Teachers Room Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 655,
+                                "y": 515,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Principals Office Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Principals Office Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Principals Office Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 1576,
+                                "y": 455,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Monitor Comp BMD",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 1185,
+                                "y": 780,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Principals Coffee Table",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 1558,
+                                "y": 571,
+                                "size": 30
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AcademyClasses",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Class 1-1 Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Class 1-1 Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Class 1-1 Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 320,
+                                "y": 895,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Class 1-2 Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Class 1-2 Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Class 1-2 Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Class 1-2 Heel Navi",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 699,
+                                "y": 705,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Class 6-1 Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Class 6-1 Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Class 6-1 Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 613,
+                                "y": 341,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Class 6-2 Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Class 6-2 Comp BMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Class 6-2 Comp PMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 1000,
+                                "y": 151,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Security Camera Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Security Camera Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Security Camera Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 749,
+                                "y": 319,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "School Mr Quiz",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 1337,
+                                "y": 260,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Class 1-2 EnergBom K Trade",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 475,
+                                "y": 775,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Class 6-1 Grid",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 725,
+                                "y": 339,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ProtoMan FZ",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyClasses",
+                                "x": 650,
+                                "y": 324,
+                                "size": 30
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Expo",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "children": [
+                    {
+                        "name": "Mascot Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Mascot Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Mascot Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ExpoPavilion",
+                                "x": 1703,
+                                "y": 1080,
+                                "size": 35
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Guide Panel Comp BMD",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ExpoPavilion",
+                                "x": 876,
+                                "y": 598,
+                                "size": 30
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Seaside Pavilion Waterfall",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ExpoPavilion",
+                                "x": 2306,
+                                "y": 791,
+                                "size": 30
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
