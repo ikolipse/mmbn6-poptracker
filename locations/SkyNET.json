@@ -240,8 +240,8 @@
                         "map_locations": [
                             {
                                 "map": "SkyNet2",
-                                "x": 738,
-                                "y": 633,
+                                "x": 96,
+                                "y": 603,
                                 "size": 25
                             }
                         ]
@@ -290,8 +290,8 @@
                         "map_locations": [
                             {
                                 "map": "SkyNet2",
-                                "x": 96,
-                                "y": 603,
+                                "x": 738,
+                                "y": 633,
                                 "size": 25
                             }
                         ]

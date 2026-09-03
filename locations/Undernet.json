@@ -158,8 +158,8 @@
                         "map_locations": [
                             {
                                 "map": "Undernet0",
-                                "x": 122,
-                                "y": 633,
+                                "x": 379,
+                                "y": 761,
                                 "size": 25
                             }
                         ]
@@ -183,8 +183,8 @@
                         "map_locations": [
                             {
                                 "map": "Undernet0",
-                                "x": 379,
-                                "y": 761,
+                                "x": 122,
+                                "y": 633,
                                 "size": 25
                             }
                         ]
@@ -294,8 +294,8 @@
                         "map_locations": [
                             {
                                 "map": "Graveyard",
-                                "x": 770,
-                                "y": 829,
+                                "x": 512,
+                                "y": 287,
                                 "size": 25
                             }
                         ]
@@ -319,8 +319,8 @@
                         "map_locations": [
                             {
                                 "map": "Graveyard",
-                                "x": 641,
-                                "y": 824,
+                                "x": 226,
+                                "y": 237,
                                 "size": 25
                             }
                         ]
@@ -344,8 +344,8 @@
                         "map_locations": [
                             {
                                 "map": "Graveyard",
-                                "x": 514,
-                                "y": 286,
+                                "x": 770,
+                                "y": 829,
                                 "size": 25
                             }
                         ]
@@ -369,8 +369,8 @@
                         "map_locations": [
                             {
                                 "map": "Graveyard",
-                                "x": 224,
-                                "y": 236,
+                                "x": 353,
+                                "y": 175,
                                 "size": 25
                             }
                         ]
@@ -394,8 +394,8 @@
                         "map_locations": [
                             {
                                 "map": "Graveyard",
-                                "x": 354,
-                                "y": 154,
+                                "x": 643,
+                                "y": 825,
                                 "size": 25
                             }
                         ]

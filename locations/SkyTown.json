@@ -167,18 +167,6 @@
                                 "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
-                            },
-                            {
-                                "name": "ElecMan Class",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "TomahawkMan Class",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
                             }
                         ],
                         "map_locations": [

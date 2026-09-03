@@ -36,8 +36,8 @@
                         "map_locations": [
                             {
                                 "map": "Weather1",
-                                "x": 972,
-                                "y": 342,
+                                "x": 335,
+                                "y": 394,
                                 "size": 25
                             }
                         ]
@@ -61,8 +61,8 @@
                         "map_locations": [
                             {
                                 "map": "Weather1",
-                                "x": 335,
-                                "y": 394,
+                                "x": 972,
+                                "y": 342,
                                 "size": 25
                             }
                         ]
@@ -97,8 +97,8 @@
                         "map_locations": [
                             {
                                 "map": "Weather2",
-                                "x": 337,
-                                "y": 634,
+                                "x": 752,
+                                "y": 489,
                                 "size": 25
                             }
                         ]
@@ -122,8 +122,8 @@
                         "map_locations": [
                             {
                                 "map": "Weather2",
-                                "x": 752,
-                                "y": 489,
+                                "x": 337,
+                                "y": 634,
                                 "size": 25
                             }
                         ]

@@ -215,8 +215,8 @@
                         "map_locations": [
                             {
                                 "map": "GreenNet2",
-                                "x": 514,
-                                "y": 934,
+                                "x": 928,
+                                "y": 274,
                                 "size": 25
                             }
                         ]
@@ -240,8 +240,8 @@
                         "map_locations": [
                             {
                                 "map": "GreenNet2",
-                                "x": 800,
-                                "y": 214,
+                                "x": 514,
+                                "y": 934,
                                 "size": 25
                             }
                         ]
@@ -265,8 +265,8 @@
                         "map_locations": [
                             {
                                 "map": "GreenNet2",
-                                "x": 928,
-                                "y": 274,
+                                "x": 800,
+                                "y": 214,
                                 "size": 25
                             }
                         ]

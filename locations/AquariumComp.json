@@ -122,8 +122,8 @@
                         "map_locations": [
                             {
                                 "map": "Aquarium2",
-                                "x": 638,
-                                "y": 695,
+                                "x": 830,
+                                "y": 310,
                                 "size": 25
                             }
                         ]
@@ -147,8 +147,8 @@
                         "map_locations": [
                             {
                                 "map": "Aquarium2",
-                                "x": 830,
-                                "y": 310,
+                                "x": 638,
+                                "y": 695,
                                 "size": 25
                             }
                         ]
@@ -183,8 +183,8 @@
                         "map_locations": [
                             {
                                 "map": "Aquarium3",
-                                "x": 472,
-                                "y": 498,
+                                "x": 422,
+                                "y": 168,
                                 "size": 25
                             }
                         ]
@@ -208,8 +208,8 @@
                         "map_locations": [
                             {
                                 "map": "Aquarium3",
-                                "x": 422,
-                                "y": 168,
+                                "x": 472,
+                                "y": 498,
                                 "size": 25
                             }
                         ]
