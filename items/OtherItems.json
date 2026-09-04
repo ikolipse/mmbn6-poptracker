@@ -1,33 +1,5 @@
 [
     {
-        "name": "HpMemry",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "overlay_align": "right",
-        "stages": [
-            {
-                "name": "hpmemry stage1",
-                "inherit_codes": true,
-                "img": "/images/items/placeholder/hpmemry.png",
-                "codes": "hpmemry, hpmemry_stage1"
-            },
-            {
-                "name": "hpmemry stage2",
-                "inherit_codes": true,
-                "img": "/images/items/placeholder/hpmemry.png",
-                "codes": "hpmemry_stage2"
-            },
-            {
-                "name": "hpmemry stage3",
-                "inherit_codes": true,
-                "img": "/images/items/placeholder/hpmemry.png",
-                "codes": "hpmemry_stage3"
-            }
-        ]
-    },
-    {
         "name": "OrderSys",
         "type": "toggle",
         "img": "/images/items/placeholder/ordersys.png",
@@ -44,46 +16,38 @@
         "overlay_align": "right",
         "stages": [
             {
-                "name": "submemry stage1",
+                "name": "SubMemry (5 subitems)",
                 "inherit_codes": true,
                 "img": "/images/items/placeholder/submemry.png",
                 "codes": "submemry, submemry_stage1"
             },
             {
-                "name": "submemry stage2",
+                "name": "SubMemry (6 subitems)",
                 "inherit_codes": true,
                 "img": "/images/items/placeholder/submemry.png",
                 "codes": "submemry_stage2"
             },
             {
-                "name": "submemry stage3",
+                "name": "SubMemry (7 subitems)",
                 "inherit_codes": true,
                 "img": "/images/items/placeholder/submemry.png",
                 "codes": "submemry_stage3"
+            },
+            {
+                "name": "SubMemry (8 subitems)",
+                "inherit_codes": true,
+                "img": "/images/items/placeholder/submemry.png",
+                "codes": "submemry_stage4"
             }
         ]
     },
     {
         "name": "100000z",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "type": "toggle",
+        "img": "/images/items/placeholder/100000z.png",
+        "initial_active_state": false,
         "overlay_align": "right",
-        "stages": [
-            {
-                "name": "100000z stage1",
-                "inherit_codes": true,
-                "img": "/images/items/placeholder/100000z.png",
-                "codes": "100000z, 100000z_stage1"
-            },
-            {
-                "name": "100000z stage2",
-                "inherit_codes": true,
-                "img": "/images/items/placeholder/100000z.png",
-                "codes": "100000z_stage2"
-            }
-        ]
+        "codes": "100000z"
     },
     {
         "name": "TagChip",
@@ -114,10 +78,10 @@
         "type": "consumable",
         "img": "/images/items/placeholder/unlocker.png",
         "min_quantity": 0,
-        "max_quantity": 10,
+        "max_quantity": 7,
         "increment": 1,
         "decrement": 1,
-        "initial_quantity": 1,
+        "initial_quantity": 0,
         "overlay_align": "right",
         "overlay_font_size": 14,
         "overlay_background": "#000000",
