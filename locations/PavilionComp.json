@@ -97,8 +97,8 @@
                         "map_locations": [
                             {
                                 "map": "PavilionComp2",
-                                "x": 707,
-                                "y": 406,
+                                "x": 354,
+                                "y": 420,
                                 "size": 25
                             }
                         ]
@@ -122,8 +122,8 @@
                         "map_locations": [
                             {
                                 "map": "PavilionComp2",
-                                "x": 354,
-                                "y": 420,
+                                "x": 707,
+                                "y": 406,
                                 "size": 25
                             }
                         ]
@@ -158,8 +158,8 @@
                         "map_locations": [
                             {
                                 "map": "PavilionComp3",
-                                "x": 95,
-                                "y": 392,
+                                "x": 506,
+                                "y": 138,
                                 "size": 25
                             }
                         ]
@@ -183,8 +183,8 @@
                         "map_locations": [
                             {
                                 "map": "PavilionComp3",
-                                "x": 506,
-                                "y": 138,
+                                "x": 95,
+                                "y": 392,
                                 "size": 25
                             }
                         ]
@@ -219,8 +219,8 @@
                         "map_locations": [
                             {
                                 "map": "PavilionComp4",
-                                "x": 826,
-                                "y": 162,
+                                "x": 52,
+                                "y": 736,
                                 "size": 25
                             }
                         ]
@@ -244,8 +244,8 @@
                         "map_locations": [
                             {
                                 "map": "PavilionComp4",
-                                "x": 52,
-                                "y": 736,
+                                "x": 826,
+                                "y": 162,
                                 "size": 25
                             }
                         ]
