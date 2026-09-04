@@ -314,7 +314,7 @@
                                 ]
                             },
                             {
-                                "name": "3 Stars Request",
+                                "name": "3 Stars Requests",
                                 "chest_unopened_img": "/images/items/close.png",
                                 "chest_opened_img": "/images/items/open.png",
                                 "overlay_background": "#000000",
@@ -363,7 +363,7 @@
                                 ]
                             },
                             {
-                                "name": "4 Stars Request",
+                                "name": "4 Stars Requests",
                                 "chest_unopened_img": "/images/items/close.png",
                                 "chest_opened_img": "/images/items/open.png",
                                 "overlay_background": "#000000",
@@ -812,7 +812,7 @@
                                 ]
                             },
                             {
-                                "name": "Gacha 50-58",
+                                "name": "Gacha 51-58",
                                 "chest_unopened_img": "/images/items/close.png",
                                 "chest_opened_img": "/images/items/open.png",
                                 "overlay_background": "#000000",
