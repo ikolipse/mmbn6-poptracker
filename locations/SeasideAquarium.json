@@ -65,7 +65,7 @@
                             },
                             {
                                 "name": "WatrMchn HiBoomer V Trade",
-                                "access_rules": ["{}", "hiboomerv"],
+                                "access_rules": ["{}, hiboomerv"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
@@ -96,43 +96,6 @@
                     " "
                 ],
                 "children": [
-                    {
-                        "name": "Vending Machine Comp",
-                            "chest_unopened_img": "/images/items/close.png",
-                            "chest_opened_img": "/images/items/open.png",
-                            "overlay_background": "#000000",
-                            "access_rules": [
-                                "$hasUndernetAccess"
-                        ],
-                        "sections": [
-                            {
-                                "name": "Vending Machine Comp BMD 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Vending Machine Comp BMD 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "SeasideInterior",
-                                "x": 793,
-                                "y": 1410,
-                                "size": 35
-                            },
-                            {
-                                "map": "Undernet2",
-                                "x": 186,
-                                "y": 497,
-                                "size": 25
-                            }
-                        ]
-                    },
                     {
                         "name": "Vending Machine Link Navi",
                             "chest_unopened_img": "/images/items/close.png",
@@ -245,7 +208,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "{}","dublshotc"
+                                "{}, dublshotc"
                         ],
                         "sections": [
                             {

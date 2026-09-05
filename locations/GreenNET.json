@@ -85,12 +85,12 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "$canClearTree"
                         ],
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": ["$canClearTree"],
+                                "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -110,11 +110,11 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "unlocker"
                         ],
                         "sections": [
                             {
-                                "name": "unlocker",
+                                "name": "",
                                 "access_rules": [],
                                 "visibility_rules": [],
                                 "item_count": 1
@@ -150,6 +150,43 @@
                                 "map": "GreenNet1",
                                 "x": 638,
                                 "y": 224,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Book Comp",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Book Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Book Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "GreenTown",
+                                "x": 680,
+                                "y": 360,
+                                "size": 20
+                            },
+                            {
+                                "map": "GreenNet1",
+                                "x": 641,
+                                "y": 391,
                                 "size": 25
                             }
                         ]

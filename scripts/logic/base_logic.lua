@@ -11,93 +11,95 @@
 --
 
 function hasCentral3Access()
-  return (
-    (HAS("keydata")) or
-    (HAS("fish") and HAS("toolpgrm")) or
-    (HAS("authdata") and HAS("cyberbrdax")) or
-    (HAS("umbrella") and HAS("vacdata")) or
-    (HAS("acdckydt") and HAS("areapass"))
-  )
-end
+  return ANY(
+        "keydata", --access through central 2
+        ALL("fish", "toolprgm"), --access through seaside
+        ALL("authdata", "cybbrdax"), --access through green
+        ALL("umbrella", "vacdata"), --access through sky
+        ALL("acdckydt", "areapass") --access through acdc
+    )
+  end
 
 function hasSeasideNetAccess()
-  return(
-    (HAS("fish")) or
-    (hasCentral3Access() and HAS("toolpgrm"))
+  return ANY(
+    "fish",
+    ALL("toolprgm", hasCentral3Access)
   )
 end
 
 function hasGreenNetAccess()
-  return(
-    (HAS("authdata")) or
-    (hasCentral3Access() and HAS("cyberbrdax"))
+  return ANY(
+    "authdata",
+    ALL("cybbrdax", hasCentral3Access)
   )
 end
 
 function hasSkyNetAccess()
-  return(
-    (HAS("umbrella")) or
-    (hasCentral3Access() and HAS("vacdata"))
+  return ANY(
+    "umbrella",
+    ALL("vacdata", hasCentral3Access)
   )
 end
 
 function hasACDCNetAccess()
-  return(
-    (HAS("acdckydt")) or
-    (hasCentral3Access() and HAS("areapass"))
+  return ANY(
+    "acdckydt",
+    ALL("areapass", hasCentral3Access)
   )
 end
 
+-- same thing as sky net access but separate in case undernet gets locked behind exploration points
 function hasUndernetAccess()
-  return(hasSkyNetAccess())
+  return hasSkyNetAccess()
 end
 
+-- same thing as sky overworld access but separate for readability + in case it gets locked behind money or a new check
 function canBuyRushFood()
-  return (HAS("umbrella"))
+  return HAS("umbrella")
 end
 
 -- functions to check whether or not you have the right link navis to clear obstacles
 function canClearFire()
-  return (
-    HAS("heatcross") or
-    HAS("chargecross") or
-    HAS("spoutcross") or
-    HAS("tengucross")
+  return ANY(
+    "heatcross",
+    "chargecross",
+    "sproutcross",
+    "tengucross"
   )
 end
 
 function canClearTree()
-  return (
-    HAS("heatcross") or
-    HAS("slashcross") or
-    HAS("tomahawkcross") or
-    HAS("groundcross")
+  return ANY(
+    "heatcross",
+    "slashcross",
+    "tomahawkcross",
+    "groundcross"
   )
 end
 
 function canClearGeyser()
-  return (
-    HAS("eleccross") or
-    HAS("erasecross") or
-    HAS("spoutcross") or
-    HAS("groundcross")
+  return ANY(
+    "eleccross",
+    "erasecross",
+    "spoutcross",
+    "groundcross"
   )
 end
 
 function canClearCloud()
-  return (
-    HAS("eleccross") or
-    HAS("erasecross") or
-    HAS("tomahawkcross") or
-    HAS("dustcross")
+  return ANY(
+    "eleccross",
+    "erasecross",
+    "tomahawkcross",
+    "dustcross"
   )
 end
 
-function canClearTornado()
-  return (
-    HAS("slashcross") or
-    HAS("chargecross") or
-    HAS("tengucross") or
-    HAS("dustcross")
+function canClearCyclone()
+  return ANY(
+    "slashcross",
+    "chargecross",
+    "tengucross",
+    "dustcross"
   )
 end

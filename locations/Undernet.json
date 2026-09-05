@@ -66,6 +66,43 @@
                                 "size": 25
                             }
                         ]
+                    },
+                    {
+                        "name": "Labs Comp 2",
+                        "chest_unopened_img": "/images/items/close.png",
+                        "chest_opened_img": "/images/items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [
+                            ""
+                        ],
+                        "sections": [
+                            {
+                                "name": "Labs Comp 2 BMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Labs Comp 2 PMD",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "AcademyOffices",
+                                "x": 170,
+                                "y": 175,
+                                "size": 30
+                            },
+                            {
+                                "map": "Undernet1",
+                                "x": 232,
+                                "y": 752,
+                                "size": 25
+                            }
+                        ]
                     }
                 ]
             },
@@ -127,6 +164,43 @@
                                 "size": 25
                             }
                         ]
+                    },
+                    {
+                        "name": "Vending Machine Comp",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                "$hasUndernetAccess"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Vending Machine Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Vending Machine Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "SeasideInterior",
+                                "x": 793,
+                                "y": 1410,
+                                "size": 35
+                            },
+                            {
+                                "map": "Undernet2",
+                                "x": 186,
+                                "y": 497,
+                                "size": 25
+                            }
+                        ]
                     }
                 ]
             },
@@ -145,7 +219,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$hasUndernetAccess", "$canBuyRushFood", "$canClearTree"
+                                "$hasUndernetAccess, $canBuyRushFood, $canClearTree"
                         ],
                         "sections": [
                             {
@@ -170,7 +244,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$hasUndernetAccess", "$canClearGeyser"
+                                "$hasUndernetAccess, $canClearGeyser"
                         ],
                         "sections": [
                             {
@@ -195,7 +269,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$hasGreenNetAccess", "$canClearCyclone"
+                                "$hasGreenNetAccess, $canClearCyclone"
                         ],
                         "sections": [
                             {
@@ -220,7 +294,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$hasUndernetAccess", "$canBuyRushFood"
+                                "$hasUndernetAccess, $canBuyRushFood"
                         ],
                         "sections": [
                             {
@@ -272,7 +346,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$hasUndernetAccess", "batkey"
+                    "$hasUndernetAccess, batkey"
                 ],
                 "children": [
                     {
@@ -406,7 +480,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$canClearGeyser", "unlocker"
+                                "$canClearGeyser, unlocker"
                         ],
                         "sections": [
                             {
