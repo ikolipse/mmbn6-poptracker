@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "$hasSeasideNetAccess"
         ],
         "children": [
             {
@@ -44,7 +44,7 @@
                                 "map": "SeasideNet1",
                                 "x": 382,
                                 "y": 662,
-                                "size": 20
+                                "size": 25
                             }
                         ]
                     },
@@ -110,7 +110,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "wwwid"
                         ],
                         "sections": [
                             {
@@ -135,7 +135,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "$canClearGeyser"
                         ],
                         "sections": [
                             {
@@ -182,13 +182,13 @@
                             },
                             {
                                 "name": "Aquarium HP PMD",
-                                "access_rules": [],
+                                "access_rules": ["unlocker"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Aquarium PnlRetrn Trade",
-                                "access_rules": [],
+                                "access_rules": ["{}", "pnlretrn"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -204,7 +204,7 @@
                                 "map": "SeasideInterior",
                                 "x": 718,
                                 "y": 1223,
-                                "size": 25
+                                "size": 35
                             }
                         ]
                     },
@@ -264,7 +264,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "$canClearCyclone"
                         ],
                         "sections": [
                             {
@@ -325,7 +325,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "unlocker"
                         ],
                         "sections": [
                             {

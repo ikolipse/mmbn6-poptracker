@@ -38,7 +38,7 @@
                                 "map": "CentralNet1",
                                 "x": 350,
                                 "y": 267,
-                                "size": 25
+                                "size": 20
                             }
                         ]
                     },
@@ -48,7 +48,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "wwwid"
                         ],
                         "sections": [
                             {
@@ -63,7 +63,7 @@
                                 "map": "CentralNet1",
                                 "x": 737,
                                 "y": 368,
-                                "size": 25
+                                "size": 20
                             }
                         ]
                     },
@@ -88,25 +88,34 @@
                                 "map": "CentralNet1",
                                 "x": 894,
                                 "y": 157,
-                                "size": 25
+                                "size": 20
                             }
                         ]
-                    }
-                ],
-                "sections": [
+                    },
                     {
                         "name": "Central 1 Virus Battler",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "CentralNet1",
-                        "x": 1921,
-                        "y": 1612,
-                        "size": 25
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                "bltrcard"
+                        ],
+                        "sections": [
+                            {
+                                "name": "",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "CentralNet1",
+                                "x": 129,
+                                "y": 252,
+                                "size": 20
+                            }
+                        ]
                     }
                 ]
             },
@@ -233,7 +242,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$hasCentral3Access"
                 ],
                 "children": [
                     {
@@ -263,7 +272,7 @@
                                 "map": "CentralNet3",
                                 "x": 632,
                                 "y": 321,
-                                "size": 25
+                                "size": 20
                             }
                         ]
                     },
@@ -288,7 +297,7 @@
                                 "map": "CentralNet3",
                                 "x": 155,
                                 "y": 347,
-                                "size": 25
+                                "size": 20
                             }
                         ]
                     },
@@ -303,7 +312,7 @@
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": [],
+                                "access_rules": ["unlocker"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -313,7 +322,7 @@
                                 "map": "CentralNet3",
                                 "x": 408,
                                 "y": 398,
-                                "size": 25
+                                "size": 20
                             }
                         ]
                     }

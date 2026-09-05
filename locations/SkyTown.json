@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "umbrella"
         ],
         "children": [
             {
@@ -71,7 +71,7 @@
                             },
                             {
                                 "name": "AirCon AuraHed1 B Trade",
-                                "access_rules": [],
+                                "access_rules": ["{}", "aurahed1b"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -180,7 +180,7 @@
                                 "map": "SkyNet2",
                                 "x": 579,
                                 "y": 271,
-                                "size": 20
+                                "size": 25
                             }
                         ]
                     },
@@ -278,7 +278,7 @@
                                 "map": "SkyControl",
                                 "x": 190,
                                 "y": 178,
-                                "size": 20
+                                "size": 15
                             }
                         ]
                     },
@@ -299,13 +299,13 @@
                             },
                             {
                                 "name": "Oxygen Tank Comp PMD",
-                                "access_rules": [],
+                                "access_rules": ["unlocker"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Oxygen Tank Comp Virus Battler",
-                                "access_rules": [],
+                                "access_rules": ["btlrcard"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -315,7 +315,7 @@
                                 "map": "SkyControl",
                                 "x": 200,
                                 "y": 360,
-                                "size": 20
+                                "size": 15
                             }
                         ]
                     },
@@ -325,7 +325,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                " "
+                                "{}", "grabrvngi"
                         ],
                         "sections": [
                             {
@@ -340,7 +340,7 @@
                                 "map": "SkyControl",
                                 "x": 155,
                                 "y": 304,
-                                "size": 25
+                                "size": 15
                             }
                         ]
                     },
@@ -365,7 +365,7 @@
                                 "map": "SkyControl",
                                 "x": 226,
                                 "y": 374,
-                                "size": 25
+                                "size": 15
                             }
                         ]
                     }

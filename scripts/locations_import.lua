@@ -1,5 +1,6 @@
 Tracker:AddLocations("locations/ACDCNET.json")
 Tracker:AddLocations("locations/ACDCTown.json")
+Tracker:AddLocations("locations/AsterLand.json")
 Tracker:AddLocations("locations/AquariumComp.json")
 Tracker:AddLocations("locations/CentralNET.json")
 Tracker:AddLocations("locations/CentralTown.json")
