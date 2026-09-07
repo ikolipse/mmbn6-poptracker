@@ -4,4 +4,4 @@ Archipelago:AddLocationHandler("location handler", OnLocation)
 
 Archipelago:AddSetReplyHandler("notify handler", OnNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
--- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", AutoFill)
+ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", AutoFill)

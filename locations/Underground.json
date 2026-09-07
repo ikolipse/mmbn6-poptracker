@@ -90,13 +90,13 @@
                             {
                                 "name": "Colonel EX",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Colonel SP - Random encounter",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
                         ],
@@ -164,6 +164,7 @@
                             "chest_unopened_img": "/images/items/close.png",
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
+                            "visibility_rules": ["include_protoman_fz"],
                             "access_rules": [
                                 " "
                         ],

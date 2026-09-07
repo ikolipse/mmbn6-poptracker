@@ -94,5 +94,12 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "update"
+    },
+    {
+        "name": "autofill",
+        "type": "toggle",
+        "initial_active_state": true,
+        "overlay_align": "right",
+        "codes": "autofill_settings"
     }
 ]

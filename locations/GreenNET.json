@@ -214,13 +214,13 @@
                             {
                                 "name": "JudgeMan EX",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "JudgeMan SP - Random encounter",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
                         ],

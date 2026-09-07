@@ -66,13 +66,13 @@
                             {
                                 "name": "ElementMan EX",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "ElementMan SP - Random encounter",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
                         ],
@@ -209,43 +209,6 @@
                                 "size": 25
                             }
                         ]
-                    },
-                    {
-                        "name": "Heliport Comp",
-                            "chest_unopened_img": "/images/items/close.png",
-                            "chest_opened_img": "/images/items/open.png",
-                            "overlay_background": "#000000",
-                            "access_rules": [
-                                " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Heliport Comp BMD 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Heliport Comp BMD 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "SkyExtLower",
-                                "x": 374,
-                                "y": 409,
-                                "size": 20
-                            },
-                            {
-                                "map": "SkyNet2",
-                                "x": 579,
-                                "y": 271,
-                                "size": 25
-                            }
-                        ]
                     }
                 ]
             },
@@ -329,6 +292,43 @@
                                 "map": "SkyNet2",
                                 "x": 738,
                                 "y": 633,
+                                "size": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Heliport Comp",
+                            "chest_unopened_img": "/images/items/close.png",
+                            "chest_opened_img": "/images/items/open.png",
+                            "overlay_background": "#000000",
+                            "access_rules": [
+                                " "
+                        ],
+                        "sections": [
+                            {
+                                "name": "Heliport Comp BMD 1",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Heliport Comp BMD 2",
+                                "access_rules": [],
+                                "visibility_rules": [],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "SkyExtLower",
+                                "x": 374,
+                                "y": 409,
+                                "size": 20
+                            },
+                            {
+                                "map": "SkyNet2",
+                                "x": 579,
+                                "y": 271,
                                 "size": 25
                             }
                         ]

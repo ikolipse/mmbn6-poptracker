@@ -60,13 +60,13 @@
                             {
                                 "name": "DiveMan EX",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "DiveMan SP - Random encounter",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
                         ],
@@ -188,7 +188,7 @@
                             },
                             {
                                 "name": "Aquarium PnlRetrn Trade",
-                                "access_rules": ["{}, pnlretrn"],
+                                "access_rules": ["pnlretrn"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }

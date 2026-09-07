@@ -62,6 +62,15 @@
                                 "type": "layout",
                                 "key": "OtherItemsGrid"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "SettingsGrid"
+                            }
                         }
                 ]
             }

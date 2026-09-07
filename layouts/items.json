@@ -229,7 +229,6 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "hpmemry",
                                 "unlocker",
                                 "submemry",
                                 "100000z"
@@ -239,6 +238,47 @@
                                 "beastout",
                                 "ordersys",
                                 "tagchip"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SettingsGrid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "game_version"
+                            ],
+                            [
+                                "include_jobs",
+                                "include_graveyard",
+                                "include_ex_bosses",
+                                "include_sp_bosses"
+                                
+                            ],
+                            [
+                                "include_virus_battler",
+                                "include_bass_bx",
+                                "include_protoman_fz",
+                                "trade_quest_hinting"
                             ]
                         ]
                     }

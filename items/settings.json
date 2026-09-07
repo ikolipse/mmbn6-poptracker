@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Game Version",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "/images/items/placeholder/wwwid.png",
+        "name": "Game Version: Gregar",
+        "codes": "game_version, game_version_gregar",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/placeholder/unlocker.png",
+        "name": "Game Version: Gregar",
+        "codes": "game_version, game_version_falzar",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+      "name": "Include Jobs",
+      "type": "toggle",
+      "img": "/images/items/placeholder/wwwid.png",
+      "codes": "include_jobs"
+  },
+  {
+      "name": "Include Graveyard",
+      "type": "toggle",
+      "img": "/images/items/placeholder/wwwid.png",
+      "codes": "include_graveyard"
+  },
+  {
+      "name": "Include EX bosses",
+      "type": "toggle",
+      "img": "/images/items/placeholder/wwwid.png",
+      "codes": "include_ex_bosses"
+  },
+  {
+      "name": "Include SP bosses",
+      "type": "toggle",
+      "img": "/images/items/placeholder/wwwid.png",
+      "codes": "include_sp_bosses"
+  },
+  {
+      "name": "Include Virus Battler",
+      "type": "toggle",
+      "img": "/images/items/placeholder/wwwid.png",
+      "codes": "include_virus_battler"
+  },
+  {
+      "name": "Include Bass BX",
+      "type": "toggle",
+      "img": "/images/items/placeholder/wwwid.png",
+      "codes": "include_bass_bx"
+  },
+  {
+      "name": "Include ProtoMan FZ",
+      "type": "toggle",
+      "img": "/images/items/placeholder/wwwid.png",
+      "codes": "include_protoman_fz"
+  },
+  {
+    "name": "Trade Quest Hinting",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "/images/items/placeholder/wwwid.png",
+        "name": "Trade Quest Hinting: None",
+        "codes": "trade_quest_hinting, trade_quest_hinting_none",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/placeholder/unlocker.png",
+        "name": "Trade Quest Hinting: Partial",
+        "codes": "trade_quest_hinting, trade_quest_hinting_partial",
+        "inherit_codes": false
+      },
+      {
+        "img": "/images/items/placeholder/millions.png",
+        "name": "Trade Quest Hinting: Full",
+        "codes": "trade_quest_hinting, trade_quest_hinting_full",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

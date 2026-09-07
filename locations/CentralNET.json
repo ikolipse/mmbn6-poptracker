@@ -97,6 +97,7 @@
                             "chest_unopened_img": "/images/items/close.png",
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
+                            "visibility_rules": ["include_virus_battler"],
                             "access_rules": [
                                 "btlrcard"
                         ],
@@ -171,13 +172,13 @@
                             {
                                 "name": "BlastMan EX",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "BlastMan SP - Random encounter",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
                         ],
@@ -288,13 +289,13 @@
                             {
                                 "name": "CircusMan EX",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "CircusMan SP - Random encounter",
                                 "access_rules": [],
-                                "visibility_rules": [],
+                                "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
                         ],

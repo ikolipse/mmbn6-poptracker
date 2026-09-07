@@ -279,9 +279,11 @@ function OnClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     AutoFill(slot_data)
-    -- end
+
+    if Tracker:FindObjectForCode("autofill_settings").Active == true then
+        --print("should be able to autofill")
+        AutoFill(slot_data)
+    end
     -- print(PLAYER_ID, TEAM_NUMBER)
     if Archipelago.PlayerNumber > -1 then
         if #ALL_LOCATIONS > 0 then
@@ -370,33 +372,41 @@ end
 
 -- this Autofill function is meant as an example on how to do the reading from slot_data
 -- and mapping the values to your own settings
--- ---@param slot_data table
--- function AutoFill(slot_data)
---     -- print(DumpTable(slot_data))
+---@param slot_data table
+function AutoFill(slot_data)
+    print(DumpTable(slot_data))
 
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
+    mapping={[0]=0,[1]=1,[2]=2}
+--    mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
+--    mapTripleReverse={[0]=2,[1]=1,[2]=0}
 
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name, settings_value in pairs(slot_data) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
+    slotCodes = {
+        game_version = {code="game_version", mapping=mapping},
+        include_jobs = {code="include_jobs", mapping=mapping},
+        include_graveyard = {code="include_graveyard", mapping=mapping},
+        include_ex_bosses = {code="include_ex_bosses", mapping=mapping},
+        include_sp_bosses = {code="include_sp_bosses", mapping=mapping},
+        include_virus_battler = {code="include_virus_battler", mapping=mapping},
+        include_bass_bx = {code="include_bass_bx", mapping=mapping},
+        include_protoman_fz = {code="include_protoman_fz", mapping=mapping},
+        trade_quest_hinting = {code="trade_quest_hinting", mapping=mapping},
+    }
+    print(Tracker:FindObjectForCode("autofill_settings").Active)
+    if Tracker:FindObjectForCode("autofill_settings").Active == true then
+        for settings_name, settings_value in pairs(slot_data) do
+            print(settings_name, settings_value)
+            if slotCodes[settings_name] then
+                item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
+                if item.Type == "toggle" then
+                    item.Active = slotCodes[settings_name].mapping[settings_value]
+                else
+                    -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
+                    item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
+                end
+            end
+        end
+    end
+end
 
 ---@class APHintMessage
 ---@field receiving_player integer
