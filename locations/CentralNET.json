@@ -99,7 +99,7 @@
                             "overlay_background": "#000000",
                             "visibility_rules": ["include_virus_battler"],
                             "access_rules": [
-                                "btlrcard"
+                                "btlrcard, [$exploreScoreIs8]"
                         ],
                         "sections": [
                             {
@@ -171,13 +171,13 @@
                         "sections": [
                             {
                                 "name": "BlastMan EX",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs4]"],
                                 "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "BlastMan SP - Random encounter",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
@@ -288,13 +288,13 @@
                         "sections": [
                             {
                                 "name": "CircusMan EX",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs4]"],
                                 "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "CircusMan SP - Random encounter",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
@@ -344,7 +344,7 @@
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": ["unlocker"],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }

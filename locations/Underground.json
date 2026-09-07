@@ -28,7 +28,7 @@
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": ["unlocker"],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -53,7 +53,7 @@
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": ["unlocker"],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -89,13 +89,13 @@
                         "sections": [
                             {
                                 "name": "Colonel EX",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs4]"],
                                 "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "Colonel SP - Random encounter",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
@@ -164,14 +164,14 @@
                             "chest_unopened_img": "/images/items/close.png",
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
-                            "visibility_rules": ["include_protoman_fz"],
+                            "visibility_rules": ["include_bass_bx"],
                             "access_rules": [
                                 " "
                         ],
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": [],
+                                "access_rules": ["authdata, batkey, ^$hasGraveyardAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }

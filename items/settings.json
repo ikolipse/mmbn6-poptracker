@@ -6,14 +6,14 @@
     "allow_disabled": false,
     "stages": [
       {
-        "img": "/images/items/placeholder/wwwid.png",
+        "img": "/images/items/gregar.png",
         "name": "Game Version: Gregar",
         "codes": "game_version, game_version_gregar",
         "inherit_codes": false
       },
       {
-        "img": "/images/items/placeholder/unlocker.png",
-        "name": "Game Version: Gregar",
+        "img": "/images/items/falzar.png",
+        "name": "Game Version: Falzar",
         "codes": "game_version, game_version_falzar",
         "inherit_codes": false
       }
@@ -28,7 +28,7 @@
   {
       "name": "Include Graveyard",
       "type": "toggle",
-      "img": "/images/items/placeholder/wwwid.png",
+      "img": "/images/items/graveyard.png",
       "codes": "include_graveyard"
   },
   {
@@ -52,13 +52,13 @@
   {
       "name": "Include Bass BX",
       "type": "toggle",
-      "img": "/images/items/placeholder/wwwid.png",
+      "img": "/images/items/bassbx.png",
       "codes": "include_bass_bx"
   },
   {
       "name": "Include ProtoMan FZ",
       "type": "toggle",
-      "img": "/images/items/placeholder/wwwid.png",
+      "img": "/images/items/protomanfz.png",
       "codes": "include_protoman_fz"
   },
   {
@@ -86,5 +86,12 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Automatic Map Switching",
+    "type": "toggle",
+    "img": "images/items/bbs.png",
+    "codes": "setting_map_tracking",
+    "initial_active_state": true
   }
 ]

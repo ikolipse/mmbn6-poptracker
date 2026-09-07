@@ -1,5 +1,11 @@
 local variant = Tracker.ActiveVariantUID
 
+DEBUG = true
+
+if DEBUG then
+    print("Debug logging is enabled!")
+end
+
 -- Items
 require("scripts.items_import")
 

@@ -1,5 +1,6 @@
 require("scripts.autotracking.item_mapping")
 require("scripts.autotracking.location_mapping")
+require("scripts.autotracking.room_id_to_tab_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -224,10 +225,12 @@ end
 ---@param slot_data? table Slotdata send from AP server for the specific user/slot
 function OnClear(slot_data)
     MANUAL_CHECKED = false
-    local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+    local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage")
     if custom_storage_item == nil then
         CreateLuaManualStorageItem("manual_location_storage")
         custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
+	else
+		custom_storage_item = custom_storage_item.ItemState
     end
     -- repeat that here for every cache-storage item you create just to be safe
 
@@ -298,8 +301,9 @@ function OnClear(slot_data)
         end
 
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
+		ROOM_ID = "mmbn6_room_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({HINTS_ID, ROOM_ID})
+        Archipelago:Get({HINTS_ID, ROOM_ID})
     end
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
@@ -335,6 +339,290 @@ function OnItem(index, item_id, item_name, player_number)
     end
 end
 
+LOCATION_NAMES = {
+	"@RobotControlComp/RobotControl1/Robot Control Comp 1 BMD 1/",
+	"@RobotControlComp/RobotControl1/Robot Control Comp 1 BMD 2/",
+	"@RobotControlComp/RobotControl2/Robot Control Comp 2 BMD 1/",
+	"@RobotControlComp/RobotControl2/Robot Control Comp 2 BMD 2/",
+	"@AquariumComp/Aquarium1/Aquarium Comp 1 BMD 1/",
+	"@AquariumComp/Aquarium1/Aquarium Comp 1 BMD 2/",
+	"@AquariumComp/Aquarium2/Aquarium Comp 2 BMD 1/",
+	"@AquariumComp/Aquarium2/Aquarium Comp 2 BMD 2/",
+	"@AquariumComp/Aquarium3/Aquarium Comp 3 BMD 1/",
+	"@AquariumComp/Aquarium3/Aquarium Comp 3 BMD 2/",
+	"@JudgeTreeComp/JudgeTree1/JudgeTree Comp 1 BMD 1/",
+	"@JudgeTreeComp/JudgeTree1/JudgeTree Comp 1 BMD 2/",
+	"@JudgeTreeComp/JudgeTree2/JudgeTree Comp 2 BMD 1/",
+	"@JudgeTreeComp/JudgeTree2/JudgeTree Comp 2 BMD 2/",
+	"@JudgeTreeComp/JudgeTree3/JudgeTree Comp 3 BMD 1/",
+	"@JudgeTreeComp/JudgeTree3/JudgeTree Comp 3 BMD 2/",
+	"@WeatherComp/Weather1/Mr. Weather Comp 1 BMD 1/",
+	"@WeatherComp/Weather1/Mr. Weather Comp 1 BMD 2/",
+	"@WeatherComp/Weather2/Mr. Weather Comp 2 BMD 1/",
+	"@WeatherComp/Weather2/Mr. Weather Comp 2 BMD 2/",
+	"@WeatherComp/Weather3/Mr. Weather Comp 3 BMD 1/",
+	"@WeatherComp/Weather3/Mr. Weather Comp 3 BMD 2/",
+	"@PavilionComp/Pavilion1/Pavilion Comp 1 BMD 1/",
+	"@PavilionComp/Pavilion1/Pavilion Comp 1 BMD 2/",
+	"@PavilionComp/Pavilion2/Pavilion Comp 2 BMD 1/",
+	"@PavilionComp/Pavilion2/Pavilion Comp 2 BMD 2/",
+	"@PavilionComp/Pavilion3/Pavilion Comp 3 BMD 1/",
+	"@PavilionComp/Pavilion3/Pavilion Comp 3 BMD 2/",
+	"@PavilionComp/Pavilion4/Pavilion Comp 4 BMD 1/",
+	"@PavilionComp/Pavilion4/Pavilion Comp 4 BMD 2/",
+	"@ACDCNET/ACDC HP/ACDC HP BMD",
+	"@SeasideNET/Seaside2/Aquarium HP/Aquarium HP BMD",
+	"@GreenNET/Green1/Green HP/Green HP BMD",
+	"@SkyNET/Sky1/Sky HP/Sky HP BMD",
+	"@CentralTown/CyberCity/RoboDog Comp/RoboDog Comp BMD",
+	"@CentralNET/Central1/Labs Comp 1/Labs Comp 1 BMD 1",
+	"@CentralNET/Central1/Labs Comp 1/Labs Comp 1 BMD 2",
+	"@CentralTown/AcademyClasses/Class 6-1 Comp/Class 6-1 Comp BMD 1",
+	"@CentralTown/AcademyClasses/Class 6-1 Comp/Class 6-1 Comp BMD 2",
+	"@CentralTown/AcademyClasses/Class 6-2 Comp/Class 6-2 Comp BMD",
+	"@CentralTown/AcademyClasses/Class 1-1 Comp/Class 1-1 Comp BMD 1",
+	"@CentralTown/AcademyClasses/Class 1-1 Comp/Class 1-1 Comp BMD 2",
+	"@CentralTown/AcademyClasses/Class 1-2 Comp/Class 1-2 Comp BMD 1",
+	"@CentralTown/AcademyClasses/Class 1-2 Comp/Class 1-2 Comp BMD 2",
+	"@CentralTown/CyberCity/Lans House/Bathroom Comp BMD",
+	"@SkyTown/SkyExterior/Elevator Comp BMD/",
+	"@SeasideAquarium/Exterior/Fish Stick Shop Comp/Fish Stick Shop Comp BMD 1",
+	"@SeasideAquarium/Exterior/Fish Stick Shop Comp/Fish Stick Shop Comp BMD 2",
+	"@CentralTown/AcademyClasses/Security Camera Comp/Security Camera Comp BMD 1",
+	"@CentralTown/AcademyClasses/Security Camera Comp/Security Camera Comp BMD 2",
+	"@GreenNET/Green1/Book Comp/Book Comp BMD 1",
+	"@GreenNET/Green1/Book Comp/Book Comp BMD 2",
+	"@SkyTown/SkyExterior/Fan Comp/Fan Comp BMD 1",
+	"@SkyTown/SkyExterior/Fan Comp/Fan Comp BMD 2",
+	"@SkyTown/SkyExterior/Air Conditioner Comp/Air Conditioner Comp BMD 1",
+	"@SkyTown/SkyExterior/Air Conditioner Comp/Air Conditioner Comp BMD 2",
+	"@SkyTown/SkyExterior/Heater Comp/Heater Comp BMD 1",
+	"@SkyTown/SkyExterior/Heater Comp/Heater Comp BMD 2",
+	"@SkyTown/SkyExterior/Shower Comp/Shower Comp BMD 1",
+	"@SkyTown/SkyExterior/Shower Comp/Shower Comp BMD 2",
+	"@SkyNET/Sky2/Heliport Comp/Heliport Comp BMD 1",
+	"@SkyNET/Sky2/Heliport Comp/Heliport Comp BMD 2",
+	"@Undernet/Undernet1/Labs Comp 2/Labs Comp 2 BMD",
+	"@Undernet/Undernet2/Vending Machine Comp/Vending Machine Comp BMD 1",
+	"@Undernet/Undernet2/Vending Machine Comp/Vending Machine Comp BMD 2",
+	"@GreenTown/Courthouse/Punish Chair Comp/Punish Chair Comp BMD",
+	"@SeasideAquarium/Exterior/Water Machine Comp/Water Machine Comp BMD",
+	"@GreenTown/GreenExterior/Symbol Comp/Symbol Comp BMD 1",
+	"@GreenTown/GreenExterior/Symbol Comp/Symbol Comp BMD 2",
+	"@CentralTown/AcademyOffices/Monitor Comp BMD/",
+	"@SeasideAquarium/Interior/Popcorn Shop Comp BMD/",
+	"@CentralTown/AcademyOffices/Teachers Room Comp/Teachers Room Comp BMD 1",
+	"@CentralTown/AcademyOffices/Teachers Room Comp/Teachers Room Comp BMD 2",
+	"@SeasideAquarium/Interior/Pipe Comp BMD/",
+	"@SkyTown/Control/Observation Comp/Observation Comp BMD 1",
+	"@SkyTown/Control/Observation Comp/Observation Comp BMD 2",
+	"@SkyTown/Control/Oxygen Tank Comp/Oxygen Tank Comp BMD",
+	"@CentralTown/AcademyOffices/Principals Office Comp/Principals Office Comp BMD 1",
+	"@CentralTown/AcademyOffices/Principals Office Comp/Principals Office Comp BMD 2",
+	"@CentralTown/Expo/Mascot Comp/Mascot Comp BMD 1",
+	"@CentralTown/Expo/Mascot Comp/Mascot Comp BMD 2",
+	"@SeasideNET/Seaside1/Stuffed Toy Shop Comp/Stuffed Toy Shop Comp BMD 1",
+	"@SeasideNET/Seaside1/Stuffed Toy Shop Comp/Stuffed Toy Shop Comp BMD 2",
+	"@ACDCTown/Dog House Comp/Dog House Comp BMD 1",
+	"@ACDCTown/Dog House Comp/Dog House Comp BMD 2",
+	"@CentralTown/Expo/Guide Panel Comp BMD/",
+	"@CentralNET/Central1/Central Area 1 BMD 1/",
+	"@CentralNET/Central1/Central Area 1 BMD 2/",
+	"@CentralNET/Central2/Central Area 2 BMD 1/",
+	"@CentralNET/Central2/Central Area 2 BMD 2/",
+	"@CentralNET/Central3/Central Area 3 BMD/",
+	"@SeasideNET/Seaside1/Seaside Area 1 BMD 1/",
+	"@SeasideNET/Seaside1/Seaside Area 1 BMD 2/",
+	"@SeasideNET/Seaside1/Seaside Area 1 BMD 3/",
+	"@SeasideNET/Seaside2/Seaside Area 2 BMD 1/",
+	"@SeasideNET/Seaside2/Seaside Area 2 BMD 2/",
+	"@SeasideNET/Seaside2/Seaside Area 2 BMD 3/",
+	"@SeasideNET/Seaside3/Seaside Area 3 BMD/",
+	"@GreenNET/Green1/Green Area 1 BMD 1/",
+	"@GreenNET/Green1/Green Area 1 BMD 2/",
+	"@GreenNET/Green2/Green Area 2 BMD 1/",
+	"@GreenNET/Green2/Green Area 2 BMD 2/",
+	"@GreenNET/Green2/Green Area 2 BMD 3/",
+	"@Underground/Underground2/Underground 2 BMD 1/",
+	"@Underground/Underground2/Underground 2 BMD 2/",
+	"@SkyNET/Sky1/Sky Area 1 BMD 1/",
+	"@SkyNET/Sky1/Sky Area 1 BMD 2/",
+	"@SkyNET/Sky2/Sky Area 2 BMD 1/",
+	"@SkyNET/Sky2/Sky Area 2 BMD 2/",
+	"@SkyNET/Sky2/Sky Area 2 BMD 3/",
+	"@ACDCNET/ACDC Area BMD 1/",
+	"@ACDCNET/ACDC Area BMD 2/",
+	"@Undernet/Undernet1/Undernet 1 BMD/",
+	"@Undernet/Undernet0/Undernet Zero BMD 1/",
+	"@Undernet/Undernet0/Undernet Zero BMD 2/",
+	"@Undernet/Undernet0/Undernet Zero BMD 3/",
+	"@Undernet/Undernet2/Undernet 2 BMD/",
+	"@Undernet/Graveyard/Graveyard BMD 1/",
+	"@Undernet/Graveyard/Graveyard BMD 2/",
+	"@Undernet/Graveyard/Graveyard BMD 3/",
+	"@Undernet/Graveyard/Graveyard BMD 4/",
+	"@Undernet/Graveyard/Graveyard BMD 5/",
+	"@ACDCNET/ACDC HP/ACDC HP PMD",
+	"@SeasideNET/Seaside2/Aquarium HP/Aquarium HP PMD",
+	"@GreenNET/Green1/Green HP/Green HP PMD",
+	"@SkyNET/Sky1/Sky HP/Sky HP PMD",
+	"@CentralTown/AcademyClasses/Class 6-2 Comp/Class 6-2 Comp PMD",
+	"@Undernet/Undernet1/Labs Comp 2/Labs Comp 2 PMD",
+	"@GreenTown/Courthouse/Punish Chair Comp/Punish Chair Comp PMD",
+	"@SkyTown/Control/Oxygen Tank Comp/Oxygen Tank Comp PMD",
+	"@CentralNET/Central3/Central Area 3 PMD/",
+	"@SeasideNET/Seaside3/Seaside Area 3 PMD/",
+	"@GreenNET/Green1/Green Area 1 PMD/",
+	"@Underground/Underground1/Underground 1 PMD 1/",
+	"@Underground/Underground1/Underground 1 PMD 2/",
+	"@SkyNET/Sky1/Sky Area 1 PMD/",
+	"@ACDCNET/ACDC Area PMD/",
+	"@Undernet/Undernet1/Undernet 1 PMD/",
+	"@Undernet/Undernet2/Undernet 2 PMD/",
+	"@Undernet/Graveyard/Graveyard PMD 1/",
+	"@Undernet/Graveyard/Graveyard PMD 2/",
+	"@CentralTown/AcademyClasses/School Mr Quiz/",
+	"@SeasideAquarium/Interior/Aquarium Quiz Master/",
+	"@GreenTown/Courthouse/Green Quiz King/",
+	"@CentralTown/CyberCity/Central Barr100 H Trade/",
+	"@SeasideNET/Seaside2/Aquarium HP/Aquarium PnlRetrn Trade",
+	"@GreenTown/Courthouse/Green HolyPnl S Trade/",
+	"@SkyTown/SkyExterior/Air Conditioner Comp/AirCon AuraHed1 B Trade",
+	"@CentralTown/AcademyClasses/Class 1-2 EnergBom K Trade/",
+	"@SeasideAquarium/Interior/Aquarium DublShot C Trade/",
+	"@SeasideAquarium/Exterior/Water Machine Comp/WatrMchn HiBoomer V Trade",
+	"@SkyTown/Control/Sky GrabRvng I Trade/",
+	"@ACDCNET/ACDC HP/ACDC BigBomb O Trade",
+	"@CentralTown/AcademyClasses/Class 6-1 Grid/",
+	"@SeasideAquarium/Interior/Seaside Auditorium Trash Can/",
+	"@SeasideAquarium/Interior/Seaside Control Room Ladder/",
+	"@GreenTown/Courthouse/Green Foyer Flowers/",
+	"@SkyTown/Control/Sky Air Tank/",
+	"@ACDCTown/ACDC Dexs Door/",
+	"@CentralTown/AcademyOffices/Principals Coffee Table/",
+	"@CentralTown/Expo/Seaside Pavilion Waterfall/",
+	"@CentralNET/Central1/Central 1 Net Cafe/",
+	"@GreenNET/Green2/Green 2 Net Cafe/",
+	"@SkyNET/Sky1/Sky 1 Net Cafe/",
+	"@CentralNET/Central2/Central 2 Heel Navi/",
+	"@CentralTown/AcademyClasses/Class 1-2 Comp/Class 1-2 Heel Navi",
+	"@SeasideAquarium/Interior/Seaside Auditorium Man/",
+	"@AquariumComp/Aquarium1/Aquarium Comp 1 Navi/",
+	"@GreenNET/Green1/Green 1 Heel Navi/",
+	"@Undernet/Undernet0/Undernet Zero Heel Navi/",
+	"@GreenTown/Courthouse/Green Punishment Room Prog/",
+	"@SkyNET/Sky1/Sky 1 Brown Navi/",
+	"@Undernet/Undernet0/Bass/",
+	"@Undernet/Graveyard/Bass SP/",
+	"@Underground/Underground2/Bass BX/",
+	"@CentralTown/CyberCity/Lans House/Talk To Mayl",
+	"@SkyTown/SkyExterior/Heliport Link Navi/ElecMan Class",
+	"@GreenTown/GreenExterior/Book Link Navi/SlashMan Class",
+	"@CentralTown/AcademyOffices/Labs 2 Link Navi/EraseMan Class",
+	"@SeasideAquarium/Interior/Vending Machine Link Navi/ChargeMan Class",
+	"@SkyTown/SkyExterior/Heliport Link Navi/TomahawkMan Class",
+	"@GreenTown/GreenExterior/Book Link Navi/TenguMan Class",
+	"@CentralTown/AcademyOffices/Labs 2 Link Navi/GroundMan Class",
+	"@SeasideAquarium/Interior/Vending Machine Link Navi/DustMan Class",
+	"@CentralTown/CyberCity/RoboDog Comp/RoboDog Comp Virus Battler",
+	"@SeasideAquarium/Exterior/Water Machine Comp/WatrMchn Comp Virus Battler",
+	"@GreenTown/Courthouse/Punish Chair Comp/Punish Chair Comp Virus Battler",
+	"@SkyTown/Control/Oxygen Tank Comp/Oxygen Tank Comp Virus Battler",
+	"@CentralNET/Central1/Central 1 Virus Battler/",
+	"@AsterLand/Request/1 Star Requests/Virus Deletion",
+	"@AsterLand/Request/1 Star Requests/Find Keepsake",
+	"@AsterLand/Request/1 Star Requests/Errand Request",
+	"@AsterLand/Request/2 Stars Requests/For Victory!",
+	"@AsterLand/Request/2 Stars Requests/JuvenileDiv",
+	"@AsterLand/Request/1 Star Requests/Somebody Help!",
+	"@AsterLand/Request/1 Star Requests/Get The Chip!",
+	"@AsterLand/Request/2 Stars Requests/Stock Up!",
+	"@AsterLand/Request/2 Stars Requests/StandIn Recruit",
+	"@AsterLand/Request/2 Stars Requests/PenguinsRanAway",
+	"@AsterLand/Request/1 Star Requests/Daughter Worry",
+	"@AsterLand/Request/1 Star Requests/Stop Him!",
+	"@AsterLand/Request/1 Star Requests/Loan Collection",
+	"@AsterLand/Request/2 Stars Requests/Lumber Merchant",
+	"@AsterLand/Request/3 Stars Requests/TimeCpsl",
+	"@AsterLand/Request/1 Star Requests/DietGood Money",
+	"@AsterLand/Request/3 Stars Requests/Find The Virus!",
+	"@AsterLand/Request/1 Star Requests/Got A Problem.",
+	"@AsterLand/Request/1 Star Requests/Songwriter",
+	"@AsterLand/Request/2 Stars Requests/Buy Whch Stock",
+	"@AsterLand/Request/3 Stars Requests/Cant Open Safe",
+	"@AsterLand/Request/3 Stars Requests/Get The Bad Guy",
+	"@AsterLand/Request/2 Stars Requests/Update Help",
+	"@AsterLand/Request/2 Stars Requests/Do Something!",
+	"@AsterLand/Request/2 Stars Requests/Want Meet Dghtr",
+	"@AsterLand/Request/2 Stars Requests/Not Engh Member",
+	"@AsterLand/Request/3 Stars Requests/Track The Crmnl",
+	"@AsterLand/Request/2 Stars Requests/Self Research",
+	"@AsterLand/Request/3 Stars Requests/OfficialRequest",
+	"@AsterLand/Request/4 Stars Requests/Wheres My Navi",
+	"@AsterLand/Request/4 Stars Requests/One More Time.",
+	"@AsterLand/Request/4 Stars Requests/SupportChip Pls",
+	"@AsterLand/Request/4 Stars Requests/Negotiate!",
+	"@AsterLand/Request/3 Stars Requests/An Experiment!",
+	"@AsterLand/Request/3 Stars Requests/RoadToSoulBtlr!",
+	"@AsterLand/Gacha/Lotto Codes 01-05",
+	"@AsterLand/Gacha/Lotto Codes 06-10",
+	"@AsterLand/Gacha/Lotto Codes 11-15",
+	"@AsterLand/Gacha/Lotto Codes 16-58",
+	"@CentralNET/Central2/BlastMan/BlastMan EX",
+	"@SeasideNET/Seaside1/DiveMan/DiveMan EX",
+	"@CentralNET/Central3/CircusMan/CircusMan EX",
+	"@GreenNET/Green2/JudgeMan/JudgeMan EX",
+	"@SkyNET/Sky1/ElementMan/ElementMan EX",
+	"@Underground/Underground2/Colonel/Colonel EX",
+	"@CentralNET/Central2/BlastMan/BlastMan SP - Random encounter",
+	"@SeasideNET/Seaside1/DiveMan/DiveMan SP - Random encounter",
+	"@CentralNET/Central3/CircusMan/CircusMan SP - Random encounter",
+	"@GreenNET/Green2/JudgeMan/JudgeMan SP - Random encounter",
+	"@SkyNET/Sky1/ElementMan/ElementMan SP - Random encounter",
+	"@Underground/Underground2/Colonel/Colonel SP - Random encounter",
+	"@CentralTown/AcademyClasses/ProtoMan FZ/"
+}
+
+function checkInLogic()
+	local countInLogic = 0
+	local countOutOfLogic = 0
+	local countCleared = 0
+	local countHintable = 0
+	local countUnavailable = 0
+
+	for _, loc in pairs(LOCATION_NAMES) do
+		local obj = Tracker:FindObjectForCode(loc)
+
+		if obj then
+			local level = obj.AccessibilityLevel
+			local availableChecks = obj.AvailableChestCount
+			local totalChecks = obj.ChestCount
+
+			-- ChestCount - AvailableChestCount = Cleared Checks
+			countCleared = countCleared + (totalChecks - availableChecks)
+
+			if availableChecks > 0 then
+				if level == ACCESS_NORMAL then
+					countInLogic = countInLogic + availableChecks
+				elseif level == ACCESS_SEQUENCEBREAK then
+					countOutOfLogic = countOutOfLogic + availableChecks
+				elseif level == ACCESS_INSPECT then
+					countHintable = countHintable + availableChecks
+				elseif level == ACCESS_NONE then
+					countUnavailable = countUnavailable + availableChecks
+				end
+			end
+		end
+	end
+
+	print("Checks in logic: "..countInLogic)
+	print("Checks out of logic: "..countOutOfLogic)
+	print("Checks hintable: "..countHintable)
+	print("Checks cleared: "..countCleared)
+	print("Checks cleared: "..countUnavailable)
+	print("Total count: "..(countInLogic + countCleared).." out of "..(countInLogic + countOutOfLogic + countHintable + countCleared + countUnavailable))
+end
+
 ---called when a location gets cleared
 ---@param location_id integer ID of the location cleared from the datapackage
 ---@param location_name string name of the location cleared from the datapackage
@@ -368,6 +656,7 @@ function OnLocation(location_id, location_name)
         end
     end
     MANUAL_CHECKED = true
+	checkInLogic()
 end
 
 -- this Autofill function is meant as an example on how to do the reading from slot_data
@@ -471,6 +760,10 @@ function OnNotify(key, value, old_value)
         end
         Tracker.BulkUpdate = false
     end
+
+	if key == ROOM_ID then
+		onMap(value)
+	end
 end
 
 ---triggers on connecting to AP when we receive this message from the server after providing a given key to Archipelago:Get
@@ -544,50 +837,24 @@ function BuildTimeObj(year, month, day, hour, minute, second)
         }
     )
 end
--------------------
 
+_last_activated_tab = ""
+function onMap(stage_id)
+    if not stage_id then
+        return
+    end
 
---doc
---hint layout
--- {
---     ["receiving_player"] = 1,
---     ["class"] = Hint,
---     ["finding_player"] = 1,
---     ["location"] = 67361,
---     ["found"] = false,
---     ["item_flags"] = 2, --bitflag --> 0=filler, 1=progression, 2=useful, 4=trap
---     ["status"] = 40, --bitflag --> 0=Unspecified, 10=NoPriority, 20=Avoid, 30=Priority, 40=None
---     ["entrance"] = ,
---     ["item"] = 66062,
--- }
+	local map_switch_setting = Tracker:FindObjectForCode("setting_map_tracking")
+	if map_switch_setting and map_switch_setting.Active then
+		local tab_name = ROOM_ID_TO_TAB_NAME[stage_id][1].."-"..ROOM_ID_TO_TAB_NAME[stage_id][2].."-"..ROOM_ID_TO_TAB_NAME[stage_id][3]
+		print("Attempting to swap to tab: "..tab_name)
 
+		if tab_name and tab_name ~= _last_activated_tab then
+			Tracker:UiHint("ActivateTab", ROOM_ID_TO_TAB_NAME[stage_id][1])
+			Tracker:UiHint("ActivateTab", ROOM_ID_TO_TAB_NAME[stage_id][2])
+			Tracker:UiHint("ActivateTab", ROOM_ID_TO_TAB_NAME[stage_id][3])
 
-----------
----remnant from when poptracker had issues loading some larger/heavy packs
---function OnClearHandler(slot_data)
---    local clear_timer = os.clock()
---
---    ScriptHost:RemoveWatchForCode("StateChange")
---    -- Disable tracker updates.
---    Tracker.BulkUpdate = true
---    -- Use a protected call so that tracker updates always get enabled again, even if an error occurred.
---    local ok, err = pcall(OnClear, slot_data)
---    -- Enable tracker updates again.
---    if ok then
---        -- Defer re-enabling tracker updates until the next frame, which doesn't happen until all received items/cleared
---        -- locations from AP have been processed.
---        local handlerName = "AP OnClearHandler"
---        local function frameCallback()
---            ScriptHost:AddWatchForCode("StateChange", "*", StateChanged)
---            ScriptHost:RemoveOnFrameHandler(handlerName)
---            Tracker.BulkUpdate = false
---            ForceUpdate()
---            print(string.format("Time taken total: %.2f", os.clock() - clear_timer))
---        end
---        ScriptHost:AddOnFrameHandler(handlerName, frameCallback)
---    else
---        Tracker.BulkUpdate = false
---        print("Error: OnClear failed:")
---        print(err)
---    end
---end
+			_last_activated_tab = tab_name
+		end
+	end
+end

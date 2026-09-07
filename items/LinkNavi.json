@@ -2,7 +2,7 @@
   {
     "name": "HeatCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/heatcross.png",
+    "img": "/images/items/Transformations/heatcross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "heatcross"
@@ -10,7 +10,7 @@
   {
     "name": "SlashCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/slashcross.png",
+    "img": "/images/items/Transformations/slashcross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "slashcross"
@@ -18,7 +18,7 @@
   {
     "name": "ElecCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/eleccross.png",
+    "img": "/images/items/Transformations/eleccross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "eleccross"
@@ -26,7 +26,7 @@
   {
     "name": "EraseCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/erasecross.png",
+    "img": "/images/items/Transformations/erasecross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "erasecross"
@@ -34,7 +34,7 @@
   {
     "name": "ChargeCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/chargecross.png",
+    "img": "/images/items/Transformations/chargecross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "chargecross"
@@ -42,7 +42,7 @@
   {
     "name": "SpoutCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/spoutcross.png",
+    "img": "/images/items/Transformations/spoutcross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "spoutcross"
@@ -50,7 +50,7 @@
   {
     "name": "TenguCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/tengucross.png",
+    "img": "/images/items/Transformations/tengucross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "tengucross"
@@ -58,7 +58,7 @@
   {
     "name": "TomahawkCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/tomahawkcross.png",
+    "img": "/images/items/Transformations/tomahawkcross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "tomahawkcross"
@@ -66,7 +66,7 @@
   {
     "name": "GroundCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/groundcross.png",
+    "img": "/images/items/Transformations/groundcross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "groundcross"
@@ -74,7 +74,7 @@
   {
     "name": "DustCross",
     "type": "toggle",
-    "img": "/images/items/LinkNavi/dustcross.png",
+    "img": "/images/items/Transformations/dustcross.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "dustcross"

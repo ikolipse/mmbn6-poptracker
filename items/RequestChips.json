@@ -25,10 +25,16 @@
   },
   {
     "name": "Discord S",
-    "type": "toggle",
+    "type": "consumable",
     "img": "/images/items/RequestChips/discords.png",
-    "initial_active_state": false,
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
     "overlay_align": "right",
+    "overlay_font_size": 14,
+    "overlay_background": "#000000",
     "codes": "discords"
   },
   {
@@ -56,7 +62,7 @@
     "codes": "geddona"
   },
   {
-    "name": "GulDelS1 C",
+    "name": "GunDelS1 C",
     "type": "toggle",
     "img": "/images/items/RequestChips/gundels1c.png",
     "initial_active_state": false,

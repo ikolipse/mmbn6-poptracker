@@ -65,7 +65,7 @@
                             },
                             {
                                 "name": "RoboDog Comp Virus Battler",
-                                "access_rules": ["btlrcard"],
+                                "access_rules": ["btlrcard, [$exploreScoreIs1]"],
                                 "visibility_rules": ["include_virus_battler"],
                                 "item_count": 1
                             }
@@ -85,7 +85,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            "barr100h"
+                            "{}", "barr100h"
                         ],
                         "sections": [
                             {
@@ -132,7 +132,7 @@
                             },
                             {
                                 "name": "GroundMan Class",
-                                "access_rules": [],
+                                "access_rules": ["vacdata"],
                                 "visibility_rules": ["game_version_falzar"],
                                 "item_count": 1
                             }
@@ -385,7 +385,7 @@
                             },
                             {
                                 "name": "Class 6-2 Comp PMD",
-                                "access_rules": ["unlocker"],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -461,7 +461,7 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            "[energbomk]"
+                            "{}", "[energbomk]"
                         ],
                         "sections": [
                             {
@@ -512,7 +512,7 @@
                         "overlay_background": "#000000",
                         "visibility_rules": ["include_protoman_fz"],
                         "access_rules": [
-                            " "
+                            "^$requestRankMaster"
                         ],
                         "sections": [
                             {

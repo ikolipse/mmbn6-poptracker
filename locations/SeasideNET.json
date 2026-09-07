@@ -59,13 +59,13 @@
                         "sections": [
                             {
                                 "name": "DiveMan EX",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs4]"],
                                 "visibility_rules": ["include_ex_bosses"],
                                 "item_count": 1
                             },
                             {
                                 "name": "DiveMan SP - Random encounter",
-                                "access_rules": [],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": ["include_sp_bosses"],
                                 "item_count": 1
                             }
@@ -182,13 +182,13 @@
                             },
                             {
                                 "name": "Aquarium HP PMD",
-                                "access_rules": ["unlocker"],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Aquarium PnlRetrn Trade",
-                                "access_rules": ["pnlretrn"],
+                                "access_rules": ["{}", "pnlretrn"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -325,7 +325,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "unlocker"
+                                "[$exploreScoreIs6]"
                         ],
                         "sections": [
                             {

@@ -2,7 +2,7 @@
   {
     "name": "WinCardA",
     "type": "toggle",
-    "img": "/images/items/placeholder/wincarda.png",
+    "img": "/images/items/KeyItems/wincarda.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "wincarda"
@@ -10,7 +10,7 @@
   {
     "name": "WinCardB",
     "type": "toggle",
-    "img": "/images/items/placeholder/wincardb.png",
+    "img": "/images/items/KeyItems/wincardb.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "wincardb"
@@ -18,7 +18,7 @@
   {
     "name": "WinCardC",
     "type": "toggle",
-    "img": "/images/items/placeholder/wincardc.png",
+    "img": "/images/items/KeyItems/wincardc.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "wincardc"
@@ -26,7 +26,7 @@
   {
     "name": "WinCardD",
     "type": "toggle",
-    "img": "/images/items/placeholder/wincardd.png",
+    "img": "/images/items/KeyItems/wincardd.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "wincardd"
@@ -34,7 +34,7 @@
   {
     "name": "Fish",
     "type": "toggle",
-    "img": "/images/items/placeholder/fish.gif",
+    "img": "/images/items/KeyItems/fish.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "fish"
@@ -42,7 +42,7 @@
   {
     "name": "AuthData",
     "type": "toggle",
-    "img": "/images/items/placeholder/authdata.gif",
+    "img": "/images/items/KeyItems/authdata.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "authdata"
@@ -50,7 +50,7 @@
   {
     "name": "Umbrella",
     "type": "toggle",
-    "img": "/images/items/placeholder/umbrella.gif",
+    "img": "/images/items/KeyItems/umbrella.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "umbrella"
@@ -58,7 +58,7 @@
   {
     "name": "ACDCKyDt",
     "type": "toggle",
-    "img": "/images/items/placeholder/acdckydt.gif",
+    "img": "/images/items/KeyItems/acdckydt.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "acdckydt"
@@ -66,7 +66,7 @@
   {
     "name": "StampCrd",
     "type": "toggle",
-    "img": "/images/items/placeholder/stampcrd.gif",
+    "img": "/images/items/KeyItems/stampcrd.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "stampcrd"
@@ -74,7 +74,7 @@
   {
     "name": "KeyData",
     "type": "toggle",
-    "img": "/images/items/placeholder/keydata.png",
+    "img": "/images/items/KeyItems/keydata.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "keydata"
@@ -82,7 +82,7 @@
   {
     "name": "ToolPrgm",
     "type": "toggle",
-    "img": "/images/items/placeholder/toolprgm.png",
+    "img": "/images/items/KeyItems/toolprgm.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "toolprgm"
@@ -90,7 +90,7 @@
   {
     "name": "CybBrdAx",
     "type": "toggle",
-    "img": "/images/items/placeholder/cybbrdax.png",
+    "img": "/images/items/KeyItems/cybbrdax.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "cybbrdax"
@@ -98,7 +98,7 @@
   {
     "name": "VacData",
     "type": "toggle",
-    "img": "/images/items/placeholder/vacdata.png",
+    "img": "/images/items/KeyItems/vacdata.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "vacdata"
@@ -114,7 +114,7 @@
   {
     "name": "WWWID",
     "type": "toggle",
-    "img": "/images/items/placeholder/wwwid.png",
+    "img": "/images/items/KeyItems/wwwid.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "wwwid"
@@ -122,7 +122,7 @@
   {
     "name": "BatKey",
     "type": "toggle",
-    "img": "/images/items/placeholder/batkey.png",
+    "img": "/images/items/KeyItems/batkey.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "batkey"

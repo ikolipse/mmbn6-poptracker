@@ -1,20 +1,32 @@
 {
     "settings_popup": {
-        "type": "array",
-        "margin": 5,
-        "content": [
-            {
-                "type": "group",
-                "header": "Autofill Settings",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "item",
-                        "margin": "5,1,5,5",
-                        "item": "autofill_settings"
+        "type": "container",
+        "background": "#000000",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Tracker",
+                    "dock": "left",
+                    "content": {
+                        "type": "dock",
+                        "dock": "left",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Auto Tracking",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "auto_tracking_settings_grid"
+                                }
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
+                }
+            ]
+        }
     }
 }

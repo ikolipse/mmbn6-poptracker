@@ -66,13 +66,13 @@
       {
         "name": "ExpMemry stage1",
         "inherit_codes": true,
-        "img": "/images/items/placeholder/expmemry.png",
+        "img": "/images/items/NaviCust/ExpMem.png",
         "codes": "expmemry, expmemry_stage1"
       },
       {
         "name": "ExpMemry stage2",
         "inherit_codes": true,
-        "img": "/images/items/placeholder/expmemry.png",
+        "img": "/images/items/Navicust/ExpMem2.png",
         "codes": "expmemry_stage2"
       }
     ]

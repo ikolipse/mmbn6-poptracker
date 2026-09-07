@@ -19,117 +19,6 @@
                 ],
                 "children": [
                     {
-                        "name": "Track The Crmnl",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Reward 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Reward 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Reward 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 95,
-                                "y": 150,
-                                "size": 10
-                            }
-                        ]
-                    },
-                    {
-                        "name": "OfficialRequest",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Reward 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Reward 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Reward 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 110,
-                                "y": 150,
-                                "size": 10
-                            }
-                        ]
-                    },
-                    {
-                        "name": "An Experiment!",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Reward 1",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Reward 2",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Reward 3",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 125,
-                                "y": 150,
-                                "size": 10
-                            }
-                        ]
-                    },
-                    {
                         "name": "1 Star Requests",
                         "chest_unopened_img": "/images/items/close.png",
                         "chest_opened_img": "/images/items/open.png",
@@ -152,55 +41,55 @@
                             },
                             {
                                 "name": "Errand Request",
-                                "access_rules": [],
+                                "access_rules": ["$hasSeasideNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Somebody Help!",
-                                "access_rules": [],
+                                "access_rules": ["[100000z]", "[millions]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Get The Chip!",
-                                "access_rules": [],
+                                "access_rules": ["$hasSeasideNetAccess, dolthdr1a"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Daughter Worry",
-                                "access_rules": [],
+                                "access_rules": ["authdata, $hasSeasideNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Stop Him!",
-                                "access_rules": [],
+                                "access_rules": ["authdata"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Loan Collection",
-                                "access_rules": [],
+                                "access_rules": ["$hasGreenNetAccess, $hasSeasideNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "DietGood Money",
-                                "access_rules": [],
+                                "access_rules": ["$hasSeasideNetAccess, authdata"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Got A Problem.",
-                                "access_rules": [],
+                                "access_rules": ["fish"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Songwriter",
-                                "access_rules": [],
+                                "access_rules": ["$hasSkyNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -220,14 +109,12 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "^$requestRankB"
                         ],
                         "sections": [
                             {
                                 "name": "For Victory!",
-                                "access_rules": [
-                                    "[gundels1c]"
-                                ],
+                                "access_rules": ["[gundels1c]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
@@ -239,49 +126,49 @@
                             },
                             {
                                 "name": "Stock Up!",
-                                "access_rules": [],
+                                "access_rules": ["fish"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "StandIn Recruit",
-                                "access_rules": [],
+                                "access_rules": ["$hasSeasideNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "PenguinsRanAway",
-                                "access_rules": [],
+                                "access_rules": ["fish"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Lumber Merchant",
-                                "access_rules": [],
+                                "access_rules": ["$hasGreenNetAccess, $hasSeasideNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Buy Whch Stock",
-                                "access_rules": [],
+                                "access_rules": ["$hasSkyNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Update Help",
-                                "access_rules": [],
+                                "access_rules": ["fish"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Do Something!",
-                                "access_rules": [],
+                                "access_rules": ["fish"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Want Meet Dghtr",
-                                "access_rules": [],
+                                "access_rules": ["$hasSkyNetAccess, $hasGreenNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
@@ -293,7 +180,7 @@
                             },
                             {
                                 "name": "Self Research",
-                                "access_rules": [],
+                                "access_rules": ["[poisseedp], [anubisp], [ordersys]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -313,36 +200,60 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "^$requestRankA"
                         ],
                         "sections": [
                             {
                                 "name": "TimeCpsl",
-                                "access_rules": [],
+                                "access_rules": ["authdata"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Find The Virus!",
-                                "access_rules": [],
+                                "access_rules": ["fish"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Cant Open Safe",
-                                "access_rules": [],
+                                "access_rules": ["fish"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Get The Bad Guy",
-                                "access_rules": [],
+                                "access_rules": ["$hasCentral3Access"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
+                                "name": "Track The Crmnl",
+                                "access_rules": [
+                                    "fish"
+                                ],
+                                "clear_as_group": false,
+                                "item_count": 3
+                            },
+                            {
+                                "name": "OfficialRequest",
+                                "access_rules": [
+                                    "umbrella"
+                                ],
+                                "clear_as_group": false,
+                                "item_count": 3
+                            },
+                            {
+                                "name": "An Experiment!",
+                                "access_rules": [
+                                    "fish"
+                                ],
+                                "clear_as_group": false,
+                                "item_count": 3
+                            },
+                            {
                                 "name": "RoadToSoulBtlr!",
-                                "access_rules": [],
+                                "access_rules": ["authdata"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -362,18 +273,18 @@
                         "chest_opened_img": "/images/items/open.png",
                         "overlay_background": "#000000",
                         "access_rules": [
-                            " "
+                            "^$requestRankS"
                         ],
                         "sections": [
                             {
                                 "name": "Wheres My Navi",
-                                "access_rules": [],
+                                "access_rules": ["$exploreScoreIs6, $hasSkyNetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "One More Time.",
-                                "access_rules": [],
+                                "access_rules": ["authdata", "acdckydt"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
@@ -385,7 +296,7 @@
                             },
                             {
                                 "name": "Negotiate!",
-                                "access_rules": [],
+                                "access_rules": ["umbrella, $exploreScoreIs6, $hasSkyNetAccess, authdata"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -409,468 +320,38 @@
                 "access_rules": [
                     " "
                 ],
-                "children": [
+                "sections": [
                     {
-                        "name": "Gacha 01-10",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Lotto Code 01",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 02",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 03",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 04",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 05",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 06",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 07",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 08",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 09",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 10",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 365,
-                                "y": 100,
-                                "size": 10
-                            }
-                        ]
+                        "name": "Lotto Codes 01-05",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 5
                     },
                     {
-                        "name": "Gacha 11-20",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Lotto Code 11",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 12",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 13",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 14",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 15",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 16",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 17",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 18",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 19",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 20",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 365,
-                                "y": 115,
-                                "size": 10
-                            }
-                        ]
+                        "name": "Lotto Codes 06-10",
+                        "access_rules": ["^$exploreScoreIs2"],
+                        "visibility_rules": [],
+                        "item_count": 5
                     },
                     {
-                        "name": "Gacha 21-30",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Lotto Code 21",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 22",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 23",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 24",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 25",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 26",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 27",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 28",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 29",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 30",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 365,
-                                "y": 130,
-                                "size": 10
-                            }
-                        ]
+                        "name": "Lotto Codes 11-15",
+                        "access_rules": ["^$exploreScoreIs4"],
+                        "visibility_rules": [],
+                        "item_count": 5
                     },
                     {
-                        "name": "Gacha 31-40",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Lotto Code 31",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 32",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 33",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 34",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 35",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 36",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 37",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 38",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 39",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 40",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 380,
-                                "y": 100,
-                                "size": 10
-                            }
-                        ]
-                    },
+                        "name": "Lotto Codes 16-58",
+                        "access_rules": ["100000z", "millions"],
+                        "visibility_rules": [],
+                        "item_count": 43
+                    }
+                ],
+                "map_locations": [
                     {
-                        "name": "Gacha 41-50",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Lotto Code 41",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 42",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 43",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 44",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 45",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 46",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 47",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 48",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 49",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 50",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 380,
-                                "y": 115,
-                                "size": 10
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Gacha 51-58",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Lotto Code 51",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 52",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 53",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 54",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 55",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 56",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 57",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            },
-                            {
-                                "name": "Lotto Code 58",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "AsterLand",
-                                "x": 380,
-                                "y": 130,
-                                "size": 10
-                            }
-                        ]
+                        "map": "AsterLand",
+                        "x": 365,
+                        "y": 130,
+                        "size": 10
                     }
                 ]
             }

@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$hasUndernetAccess"
+                    "^$hasUndernetAccess"
                 ],
                 "children": [
                     {
@@ -53,7 +53,7 @@
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": ["unlocker"],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -112,7 +112,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$hasUndernetAccess"
+                    "^$hasUndernetAccess"
                 ],
                 "children": [
                     {
@@ -151,7 +151,7 @@
                         "sections": [
                             {
                                 "name": "",
-                                "access_rules": ["unlocker"],
+                                "access_rules": ["[$exploreScoreIs6]"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }
@@ -219,7 +219,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$hasUndernetAccess, $canBuyRushFood, $canClearTree"
+                                "^$hasUndernetAccess, $canBuyRushFood, $canClearTree"
                         ],
                         "sections": [
                             {
@@ -244,7 +244,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$hasUndernetAccess, $canClearGeyser"
+                                "^$hasUndernetAccess, $canClearGeyser"
                         ],
                         "sections": [
                             {
@@ -294,7 +294,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$hasUndernetAccess, $canBuyRushFood"
+                                "^$hasUndernetAccess, $canBuyRushFood"
                         ],
                         "sections": [
                             {
@@ -347,7 +347,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["include_graveyard"],
                 "access_rules": [
-                    "$hasUndernetAccess, batkey"
+                    "^$hasGraveyardAccess, batkey"
                 ],
                 "children": [
                     {
@@ -481,7 +481,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "$canClearGeyser, unlocker"
+                                "$canClearGeyser, [$exploreScoreIs6]"
                         ],
                         "sections": [
                             {
@@ -506,7 +506,7 @@
                             "chest_opened_img": "/images/items/open.png",
                             "overlay_background": "#000000",
                             "access_rules": [
-                                "unlocker"
+                                "[$exploreScoreIs6]"
                         ],
                         "sections": [
                             {
@@ -532,7 +532,7 @@
                             "overlay_background": "#000000",
                             "visibility_rules": ["include_sp_bosses"],
                             "access_rules": [
-                                " "
+                                "$hasGreenNetAccess"
                         ],
                         "sections": [
                             {
