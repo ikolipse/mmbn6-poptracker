@@ -106,3 +106,15 @@ function HAS(item, amount, amountInLogic)
         return ACCESS_NONE
     end
 end
+
+function OnChangeVersion()
+	local version = Tracker:FindObjectForCode("game_version")
+	print(version)
+	if version.CurrentStage == 0 then
+		Tracker:AddLayouts("layouts/link_navi_grid_gregar.json")
+	elseif version.CurrentStage == 1 then
+		Tracker:AddLayouts("layouts/link_navi_grid_falzar.json")
+	end
+end
+
+ScriptHost:AddWatchForCode("version layout handler", "game_version", OnChangeVersion)

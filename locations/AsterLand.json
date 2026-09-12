@@ -174,7 +174,7 @@
                             },
                             {
                                 "name": "Not Engh Member",
-                                "access_rules": [],
+                                "access_rules": ["$canDoNotEnoughMembers"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
@@ -278,25 +278,25 @@
                         "sections": [
                             {
                                 "name": "Wheres My Navi",
-                                "access_rules": ["$exploreScoreIs6, $hasSkyNetAccess"],
+                                "access_rules": ["^$hasUndernetAccess"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "One More Time.",
-                                "access_rules": ["authdata", "acdckydt"],
+                                "access_rules": ["authdata, acdckydt"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "SupportChip Pls",
-                                "access_rules": [],
+                                "access_rules": ["$canDoSupportChipPls"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             },
                             {
                                 "name": "Negotiate!",
-                                "access_rules": ["umbrella, $exploreScoreIs6, $hasSkyNetAccess, authdata"],
+                                "access_rules": ["umbrella, ^$hasUndernetAccess, authdata"],
                                 "visibility_rules": [],
                                 "item_count": 1
                             }

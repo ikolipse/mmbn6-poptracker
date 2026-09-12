@@ -90,25 +90,25 @@
       {
         "name": "Progressive Link Navi Upgrade stage1",
         "inherit_codes": true,
-        "img": "/images/items/LinkNavi/ProgLinkNaviUpgrade.png",
+        "img": "/images/items/LinkNavi/progressivelinknaviupgrade.png",
         "codes": "progressivelinknaviupgrade, progressivelinknaviupgrade_stage1"
       },
       {
         "name": "Progressive Link Navi Upgrade stage2",
         "inherit_codes": true,
-        "img": "/images/items/LinkNavi/ProgLinkNaviUpgrade.png",
+        "img": "/images/items/LinkNavi/progressivelinknaviupgrade.png",
         "codes": "progressivelinknaviupgrade_stage2"
       },
       {
         "name": "Progressive Link Navi Upgrade stage3",
         "inherit_codes": true,
-        "img": "/images/items/LinkNavi/ProgLinkNaviUpgrade.png",
+        "img": "/images/items/LinkNavi/progressivelinknaviupgrade.png",
         "codes": "progressivelinknaviupgrade_stage3"
       },
       {
         "name": "Progressive Link Navi Upgrade stage4",
         "inherit_codes": true,
-        "img": "/images/items/LinkNavi/ProgLinkNaviUpgrade.png",
+        "img": "/images/items/LinkNavi/progressivelinknaviupgrade.png",
         "codes": "progressivelinknaviupgrade_stage4"
       }
     ]

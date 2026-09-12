@@ -11,14 +11,21 @@
 --
 
 function hasCentral3Access()
-  return ANY(
+  	if ANY(
         "keydata", --access through central 2
         ALL("fish", "toolprgm"), --access through seaside
         ALL("authdata", "cybbrdax"), --access through green
         ALL("umbrella", "vacdata"), --access through sky
         ALL("acdckydt", "areapass") --access through acdc
-    )
-  end
+    ) == ACCESS_NORMAL then
+  		return ACCESS_NORMAL
+  	elseif ALL("vacdata", ANY("erasecross", "groundcross", ALL("chargecross", "fish"), ALL("dustcross", "fish"))) == ACCESS_NORMAL then
+		-- Accessible by using Link Navis, which is not consider by AP logic
+		return ACCESS_SEQUENCEBREAK
+	end
+
+	return ACCCESS_NONE
+end
 
 function hasSeasideNetAccess()
   return ANY(
@@ -35,10 +42,14 @@ function hasGreenNetAccess()
 end
 
 function hasSkyNetAccess()
-  return ANY(
-    "umbrella",
-    ALL("vacdata", hasCentral3Access)
-  )
+	if ANY("umbrella", ALL("vacdata", hasCentral3Access)) == ACCESS_NORMAL then
+	  	return ACCESS_NORMAL
+	elseif ANY("erasecross", "groundcross", ALL("chargecross", "fish"), ALL("dustcross", "fish")) == ACCESS_NORMAL then
+		-- Can access using Link Navis, which is out of logic
+		return ACCESS_SEQUENCEBREAK
+	end
+
+	return ACCCESS_NONE
 end
 
 function hasACDCNetAccess()
@@ -56,6 +67,8 @@ function hasUndernetAccess()
 	  	end
 
 	  	return ACCESS_SEQUENCEBREAK
+	elseif ANY("erasecross", "groundcross", ALL("chargecross", "fish"), ALL("dustcross", "fish")) == ACCESS_NORMAL then
+		return ACCESS_SEQUENCEBREAK
   	end
 
 	return ACCESS_NONE
@@ -123,6 +136,32 @@ function canClearCyclone()
     ALL("tengucross", "authdata"),
     ALL("dustcross", "fish")
   )
+end
+
+function canAccessUnderground2BMD2()
+	if HAS("game_version_gregar") then
+		return ANY(HAS("heatcross"), ALL("chargecross", "fish", ANY("umbrella", "vacdata")))
+	elseif HAS("game_version_falzar") then
+		return ANY(HAS("spoutcross"), ALL("tengucross", "authdata"))
+	end
+end
+
+function canAccessSeaside1BMD3()
+	-- EraseMan requires player to be able to get SkyBanner, or VacData and ToolPrgm
+	if HAS("game_version_gregar") then
+		return ANY(ALL("eleccross", "umbrella"), ALL("erasecross", ANY("umbrella", ALL("vacdata", "keydata"), ALL("vacdata", "toolprgm"), ALL("vacdata", "cybbrdax"))))
+	elseif HAS("game_version_falzar") then
+		return ANY("spoutcross", ALL("groundcross", ANY("umbrella", ALL("vacdata", "keydata"), ALL("vacdata", "toolprgm"), ALL("vacdata", "cybbrdax"))))
+	end
+end
+
+function canAccessSeaside2BMD3()
+	-- ChargeMan requires player to be able to get SkyBanner, or VacData and ToolPrgm
+	if HAS("game_version_gregar") then
+		return ANY(ALL("slashcross", "authdata"), ALL("chargecross", "fish", ANY("umbrella", ALL("vacdata", "keydata"), ALL("vacdata", "toolprgm"), ALL("vacdata", "cybbrdax"))))
+	elseif HAS("game_version_falzar") then
+		return ANY(ALL("tengucross", "authdata"), ALL("dustcross", "fish", ANY("umbrella", ALL("vacdata", "keydata"), ALL("vacdata", "toolprgm"), ALL("vacdata", "cybbrdax"))))
+	end
 end
 
 function exploreScore()
@@ -221,12 +260,38 @@ function exploreScoreIs6()
     return ACCESS_NONE
 end
 
+function exploreScoreIs8()
+    if exploreScore() > 8 then
+        return ACCESS_NORMAL
+	end
+
+    return ACCESS_NONE
+end
+
 function exploreScoreIs9()
     if exploreScore() > 9 then
         return ACCESS_NORMAL
 	end
 
     return ACCESS_NONE
+end
+
+function canDoNotEnoughMembers()
+	-- Need 2 Discord S chips before the job is in logic.
+	if ALL("fanfarez", "timpanit") == ACCESS_NORMAL and Tracker:ProviderCountForCode("discords") > 1 then
+		return ACCESS_NORMAL
+	end
+
+	return ACCESS_NONE
+end
+
+function canDoSupportChipPls()
+	-- Need 2 Discord S chips before the job is in logic.
+	if ALL("bblwrapq", "atk30", "recov80h", "geddona") == ACCESS_NORMAL and Tracker:ProviderCountForCode("discords") > 1 then
+		return ACCESS_NORMAL
+	end
+
+	return ACCESS_NONE
 end
 
 function requestRankB()
@@ -266,6 +331,8 @@ function requestRankS()
 end
 
 function requestRankMaster()
+	print("Request Points possible: "..requestPointsPossible(true))
+	print("Request Points possible out of logic: "..requestPointsPossible(false))
 	if requestPointsPossible(true) >= 75 then
 		return ACCESS_NORMAL
 	end
@@ -357,7 +424,7 @@ function requestPointsPossible(in_logic)
 
 	-- If Self Research beatable. Assumed you get PoisSeed P, and have OrderSys to buy second one.
 	-- Note: This can always be done due to the base patch giving full library completion.
-	if ALL("poisseedp", "anubisp", "ordersys") or not in_logic then
+	if ALL("poisseedp", "anubisp", "ordersys") == ACCESS_NORMAL or not in_logic then
 		requestPoints = requestPoints + 2
 	end
 
@@ -397,7 +464,7 @@ function requestPointsPossible(in_logic)
 	end
 
 	-- If One More Time. beatable
-	if ALL("authdata", "acdckydt") then
+	if ALL("authdata", "acdckydt") == ACCESS_NORMAL then
 		requestPoints = requestPoints + 4
 	end
 
@@ -408,7 +475,7 @@ function requestPointsPossible(in_logic)
 	end
 
 	-- If Negotiate! beatable
-	if ALL("umbrella", "authdata", exploreScoreIs6(), hasSkyNetAccess()) then
+	if ALL("umbrella", "authdata", hasUndernetAccess()) then
 		requestPoints = requestPoints + 4
 	end
 

@@ -43,25 +43,17 @@
     },
     {
         "name": "100000z",
-        "type": "progressive",
-        "loop": false,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
+        "type": "consumable",
+        "img": "/images/items/100000z.png",
+        "min_quantity": 0,
+        "max_quantity": 2,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
         "overlay_align": "right",
-        "stages": [
-            {
-                "name": "100,000z",
-                "inherit_codes": true,
-                "img": "/images/items/placeholder/100000z.png",
-                "codes": "100000z"
-            },
-            {
-                "name": "100,000z x2",
-                "inherit_codes": true,
-                "img": "/images/items/placeholder/100000z.png",
-                "codes": "100000z"
-            }
-        ],
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "100000z"
     },
     {
         "name": "TagChip",
